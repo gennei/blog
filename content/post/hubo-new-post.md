@@ -2,12 +2,11 @@
 title: "Hugo + github-pages でブログを作った"
 date: 2017-09-03T15:05:48+09:00
 draft: false
+tags: ["hugo", "blog", "github"]
 ---
 
 はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。  
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやら[いくつかの方法](https://awe-some.net/2017/01/statatic-site-generator/)があるようだが、hugo の評判がいいので hugo を採用した。
-
----
 
 ## 導入ログ
 
