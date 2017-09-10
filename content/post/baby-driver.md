@@ -2,6 +2,7 @@
 title: "BABY DRIVER を見た"
 date: 2017-09-10T20:30:07+09:00
 draft: false
+tags: ["movie", "music"]
 ---
 
 映画『[BABY DRIVER](http://www.babydriver.jp/)』 を見た。
