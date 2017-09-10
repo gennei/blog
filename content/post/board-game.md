@@ -2,7 +2,7 @@
 title: "ボードゲームをやった"
 date: 2017-09-09T12:01:29+09:00
 tags: ["boardgame"]
-draft: true
+draft: false
 ---
 
 池袋にある「JELLY JELLY CAFE」というボードゲームで遊べるお店に行った。

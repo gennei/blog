@@ -6,10 +6,21 @@
     <description>Recent content on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Sep 2017 15:05:48 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 09 Sep 2017 12:01:29 +0900</lastBuildDate>
     
 	<atom:link href="https://gennei.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ボードゲームをやった</title>
+      <link>https://gennei.github.io/blog/post/board-game/</link>
+      <pubDate>Sat, 09 Sep 2017 12:01:29 +0900</pubDate>
+      
+      <guid>https://gennei.github.io/blog/post/board-game/</guid>
+      <description>池袋にある「JELLY JELLY CAFE」というボードゲームで遊べるお店に行った。 http://jellyjellycafe.com/shoplist/ikebukuro
+友達4人と下記のゲームで遊んだ。
+遊んだゲーム知覧  ドメモ ハゲタカのえじき 犯人は踊る コヨーテ ベガス  遅れていったので「犯人は踊る」、「コヨーテ」、「ベガス」の3つだけだったがとても楽しめた。</description>
+    </item>
     
     <item>
       <title>Hugo &#43; github-pages でブログを作った</title>

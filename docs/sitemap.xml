@@ -3,8 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gennei.github.io/blog/post/board-game/</loc>
+    <lastmod>2017-09-09T12:01:29+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gennei.github.io/blog/post/hubo-new-post/</loc>
     <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gennei.github.io/blog/tags/blog/</loc>
+    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennei.github.io/blog/tags/boardgame/</loc>
+    <lastmod>2017-09-09T12:01:29+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,19 +30,32 @@
   </url>
   
   <url>
-    <loc>https://gennei.github.io/blog/post/</loc>
+    <loc>https://gennei.github.io/blog/tags/github/</loc>
     <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennei.github.io/blog/tags/hugo/</loc>
+    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gennei.github.io/blog/post/</loc>
+    <lastmod>2017-09-09T12:01:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gennei.github.io/blog/tags/</loc>
+    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gennei.github.io/blog/</loc>
-    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+    <lastmod>2017-09-09T12:01:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   
