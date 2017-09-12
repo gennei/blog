@@ -2,6 +2,7 @@ baseURL = "https://gennei.github.io/blog/"
 languageCode = "ja"
 title = "gennei's blog"
 publishDir = "docs"
+googleAnalytics = "UA-106312693-1"
 
 [Params]
   rss = true
