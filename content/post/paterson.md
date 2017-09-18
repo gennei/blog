@@ -1,7 +1,7 @@
 ---
 title: "映画『パターソン』を観た"
 date: 2017-09-18T18:59:11+09:00
-draft: true
+draft: false
 tags: ["movie"]
 ---
 
