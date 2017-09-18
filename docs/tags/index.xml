@@ -6,10 +6,28 @@
     <description>Recent content in Tags on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 03 Sep 2017 15:05:48 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Sep 2017 22:14:46 +0900</lastBuildDate>
     
 	<atom:link href="https://gennei.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Animation</title>
+      <link>https://gennei.github.io/blog/tags/animation/</link>
+      <pubDate>Mon, 18 Sep 2017 22:14:46 +0900</pubDate>
+      
+      <guid>https://gennei.github.io/blog/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>https://gennei.github.io/blog/tags/art/</link>
+      <pubDate>Mon, 18 Sep 2017 22:14:46 +0900</pubDate>
+      
+      <guid>https://gennei.github.io/blog/tags/art/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
@@ -44,6 +62,15 @@
       <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
       
       <guid>https://gennei.github.io/blog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manga</title>
+      <link>https://gennei.github.io/blog/tags/manga/</link>
+      <pubDate>Mon, 18 Sep 2017 22:14:46 +0900</pubDate>
+      
+      <guid>https://gennei.github.io/blog/tags/manga/</guid>
       <description></description>
     </item>
     
