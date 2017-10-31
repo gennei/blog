@@ -1,1 +1,1 @@
-hugo  server -t beautifulhugo -D -w
+hugo server -t beautifulhugo -D -w
