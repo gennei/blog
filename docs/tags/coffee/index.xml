@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffee on gennei&#39;s blog</title>
+    <link>https://gennei.github.io/blog/tags/coffee/</link>
+    <description>Recent content in Coffee on gennei&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 31 Oct 2017 22:41:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://gennei.github.io/blog/tags/coffee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>エスプレッソマシン買った</title>
+      <link>https://gennei.github.io/blog/post/espresso-ec152j/</link>
+      <pubDate>Tue, 31 Oct 2017 22:41:00 +0900</pubDate>
+      
+      <guid>https://gennei.github.io/blog/post/espresso-ec152j/</guid>
+      <description>デロンギ エスプレッソマシン EC152Jを買った
+エスプレッソマシンは10万円ぐらいするだろうと思っていたが、1万円以下で買えると知ったので試しに買ってみた。いろいろと器具は持っているが、エスプレッソマシンマシンとミルクウォーマーは持っていなかったのでこの1台でできることがかなり増えた。
+エスプレッソだったり、ラテだったり練習しているがなかなかうまくいかない。もう少し参考にできそうなところで観察して上達したい。</description>
+    </item>
+    
+  </channel>
+</rss>
