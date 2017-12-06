@@ -1,5 +1,5 @@
 ---
-title: "『スクリプトドクターのプレゼンテーション術』を読んだ"
+title: "『スクリプトドクターのプレゼンテーション術』を読んだ - gennei's blog"
 date: 2017-11-03T21:34:06+09:00
 draft: false
 tags: ["book", "presentation", "doctor"]

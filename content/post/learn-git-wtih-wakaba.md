@@ -1,5 +1,5 @@
 ---
-title: "『わかばちゃんと学ぶGit使い方入門』を読んだ"
+title: "『わかばちゃんと学ぶGit使い方入門』を読んだ - gennei's blog"
 date: 2017-10-09T23:47:55+09:00
 draft: false
 tags: ["git", "github", "book"]

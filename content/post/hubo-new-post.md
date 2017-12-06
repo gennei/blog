@@ -1,5 +1,5 @@
 ---
-title: "Hugo + github-pages でブログを作った"
+title: "Hugo + github-pages でブログを作った - gennei's blog"
 date: 2017-09-03T15:05:48+09:00
 draft: false
 tags: ["hugo", "blog", "github"]

@@ -1,5 +1,5 @@
 ---
-title: "2017年 買ったコーヒーグッズ"
+title: "2017年 買ったコーヒーグッズ - gennei's blog"
 date: 2017-12-06T22:01:29+09:00
 tags: ["coffee"]
 draft: false

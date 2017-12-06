@@ -1,5 +1,5 @@
 ---
-title: "ダンケルク観た"
+title: "ダンケルク観た - gennei's blog"
 date: 2017-09-19T23:34:21+09:00
 draft: false
 tags: ["movie"]

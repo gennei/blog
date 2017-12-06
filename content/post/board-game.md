@@ -1,5 +1,5 @@
 ---
-title: "ボードゲームをやった"
+title: "ボードゲームをやった - gennei's blog"
 date: 2017-09-09T12:01:29+09:00
 tags: ["boardgame"]
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "第20回文化庁メディア芸術祭に行った"
+title: "第20回文化庁メディア芸術祭に行った - gennei's blog"
 date: 2017-09-18T22:14:46+09:00
 draft: false
 tags: ["art", "animation", "manga"]
