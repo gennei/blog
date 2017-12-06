@@ -1,5 +1,5 @@
 ---
-title: "映画『パターソン』を観た - gennei's blog"
+title: "映画『パターソン』を観た"
 date: 2017-09-18T18:59:11+09:00
 draft: false
 tags: ["movie"]

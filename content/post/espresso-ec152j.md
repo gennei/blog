@@ -1,5 +1,5 @@
 ---
-title: "エスプレッソマシン買った - gennei's blog"
+title: "エスプレッソマシン買った"
 date: 2017-10-31T22:41:00+09:00
 draft: false
 tags: ["coffee"]

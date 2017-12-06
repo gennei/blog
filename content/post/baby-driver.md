@@ -1,5 +1,5 @@
 ---
-title: "BABY DRIVER を見た - gennei's blog"
+title: "BABY DRIVER を見た"
 date: 2017-09-10T20:30:07+09:00
 draft: false
 tags: ["movie", "music"]
