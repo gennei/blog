@@ -5,19 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Tags</title>
-  <meta property="og:title" content="Tags" />
-  <meta name="twitter:title" content="Tags" />
+  <title>Posts</title>
+  <meta property="og:title" content="Posts" />
+  <meta name="twitter:title" content="Posts" />
   <meta name="author" content="gennei"/>
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@gennei" />
   <meta name="twitter:creator" content="@gennei" />
-  <meta property="og:url" content="https://gennei.github.io/blog/tags/" />
+  <meta property="og:url" content="https://gennei.github.io/blog/post/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="gennei&#39;s blog" />
 
   <meta name="generator" content="Hugo 0.30.2" />
-  <link rel="canonical" href="https://gennei.github.io/blog/tags/" />
+  <link rel="canonical" href="https://gennei.github.io/blog/post/" />
   <link rel="alternate" href="https://gennei.github.io/blog/index.xml" type="application/rss+xml" title="gennei&#39;s blog">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -123,26 +123,14 @@ ga('send', 'pageview');
 
 
     
-  
-  
-  
-
-
-
-
-  
-
   <header class="header-section ">
-    
     <div class="intro-header no-img">
-      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="page-heading">
-              <h1>Tags</h1>
-                
-                
+              <h1>Posts</h1>
+              <hr class="small">
             </div>
           </div>
         </div>
@@ -150,57 +138,64 @@ ga('send', 'pageview');
     </div>
   </header>
 
-
     
-  
   <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
-      
-      <a href="https://gennei.github.io/blog/tags/book/" class="list-group-item">
-          book<span class="badge">3</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/coffee/" class="list-group-item">
-          coffee<span class="badge">3</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/movie/" class="list-group-item">
-          movie<span class="badge">3</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/github/" class="list-group-item">
-          github<span class="badge">2</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/animation/" class="list-group-item">
-          animation<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/art/" class="list-group-item">
-          art<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/blog/" class="list-group-item">
-          blog<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/boardgame/" class="list-group-item">
-          boardgame<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/doctor/" class="list-group-item">
-          doctor<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/git/" class="list-group-item">
-          git<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/hugo/" class="list-group-item">
-          hugo<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/manga/" class="list-group-item">
-          manga<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/music/" class="list-group-item">
-          music<span class="badge">1</span></a>
-      
-      <a href="https://gennei.github.io/blog/tags/presentation/" class="list-group-item">
-          presentation<span class="badge">1</span></a>
-      
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+        <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="https://gennei.github.io/blog/post/hubo-new-post/">
+                <h2 class="post-title">Hugo &#43; github-pages でブログを作った</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on September 3, 2017
+              </p>
+              <div class="post-entry">
+                
+                  はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
+導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post/entry-title  これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w  これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo  これで ./public に 公開用のHTMLが作成される。
+公開用のディレクトリを変更する config.toml の設定を書き換える。
+publishDir = &quot;docs&quot;  としておくと .
+                  <a href="https://gennei.github.io/blog/post/hubo-new-post/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <span class="post-meta">
+                  
+                    #<a href="https://gennei.github.io/blog/tags/hugo/">hugo</a>&nbsp;
+                  
+                    #<a href="https://gennei.github.io/blog/tags/blog/">blog</a>&nbsp;
+                  
+                    #<a href="https://gennei.github.io/blog/tags/github/">github</a>&nbsp;
+                  
+                </span>
+              
+
+            </article>
+          
+        </div>
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="/blog/post/page/1">&larr; Newer Posts</a>
+              </li>
+            
+            
+          </ul>
+        
       </div>
-    </article>
+    </div>
   </div>
 
     <footer>
