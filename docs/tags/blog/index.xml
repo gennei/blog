@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on gennei&#39;s blog</title>
-    <link>https://gennei.github.io/blog/tags/blog/</link>
+    <link>https://blog.gennei.coffee/tags/blog/</link>
     <description>Recent content in Blog on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 03 Sep 2017 15:05:48 +0900</lastBuildDate>
     
-	<atom:link href="https://gennei.github.io/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.gennei.coffee/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo &#43; github-pages でブログを作った</title>
-      <link>https://gennei.github.io/blog/post/hubo-new-post/</link>
+      <link>https://blog.gennei.coffee/post/hubo-new-post/</link>
       <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/hubo-new-post/</guid>
+      <guid>https://blog.gennei.coffee/post/hubo-new-post/</guid>
       <description>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
 導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。

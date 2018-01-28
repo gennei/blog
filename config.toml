@@ -1,4 +1,4 @@
-baseURL = "https://gennei.github.io/blog/"
+baseURL = "https://blog.gennei.coffee/"
 languageCode = "ja"
 title = "gennei's blog"
 publishDir = "docs"

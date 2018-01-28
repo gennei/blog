@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gennei&#39;s blog</title>
-    <link>https://gennei.github.io/blog/</link>
+    <link>https://blog.gennei.coffee/</link>
     <description>Recent content on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://gennei.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.gennei.coffee/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>『21世紀のブランドを創る 「星乃珈琲店」誕生物語』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/birth-of-hoshino-coffee/</link>
+      <link>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/birth-of-hoshino-coffee/</guid>
+      <guid>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</guid>
       <description> 『21世紀のブランドを創る「星乃珈琲店」誕生物語』を読んだ
 あらすじ  だから、私は「星乃珈琲店」を立ち上げた。創業から35年目にして初めて対前年比100%を切った。翌月には85.5%まで落ち込んだ。私は逆転の発想、新たな可能性に思い当たった。準備されたシナリオどおりに事を進めたのではなく、どのように風を読んできたか、いかに市場に聞きながら、微調整をしてきたかの物語。
  openbdより
@@ -33,10 +33,10 @@
     
     <item>
       <title>2017年 買ったコーヒーグッズ</title>
-      <link>https://gennei.github.io/blog/post/coffee-goods-2017/</link>
+      <link>https://blog.gennei.coffee/post/coffee-goods-2017/</link>
       <pubDate>Wed, 06 Dec 2017 22:01:29 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/coffee-goods-2017/</guid>
+      <guid>https://blog.gennei.coffee/post/coffee-goods-2017/</guid>
       <description>コーヒー Advent Calendar 2017 4日目の記事です。
 昨年の記事はこちら
 2016年に買ったコーヒーグッズ
@@ -58,10 +58,10 @@
     
     <item>
       <title>『スクリプトドクターのプレゼンテーション術』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/presentation-doctor/</link>
+      <link>https://blog.gennei.coffee/post/presentation-doctor/</link>
       <pubDate>Fri, 03 Nov 2017 21:34:06 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/presentation-doctor/</guid>
+      <guid>https://blog.gennei.coffee/post/presentation-doctor/</guid>
       <description> 『スクリプトドクターのプレゼンテーション術』を読んだ
 内容紹介 マーケティングや資料作りの話はいっさいナシ。 革新的で本質的なプレゼン術！ 脚本家／映画監督／脚本のお医者さん＝「スクリプトドクター」／心理カウンセラーの筆者による、まったく新しいプレゼン指南書。 TBSラジオの人気番組『ライムスター宇多丸のウィークエンド・シャッフル』で披露してきた数々の名プレゼン、その極意に迫る！ 聴き手をジャガイモと思い込んではいけません／プレゼンとは人数に関係なく「対話」である／自己開示こそがプレゼンの真髄／ポップスの「転調」にヒントを得て／自分を疑うことで「他人の眼差し」に近づいていく／怒っているように見えるひとは実は傷ついている／空気を読もうとすると自分の役割を見失う／あなたの資質は「グランプリ」なのか「審査員特別賞」なのか？ など……  openbdより
 感想 プレゼンテーションに関する本を本屋で探すと多くの本は、「綺麗なスライドの作り方」、「喋る内容の構造」、「話し方」などを解説した本がたくさんある。しかし、この本はプレゼンテーションとは何かということについて書かれている。
@@ -73,10 +73,10 @@
     
     <item>
       <title>エスプレッソマシン買った</title>
-      <link>https://gennei.github.io/blog/post/espresso-ec152j/</link>
+      <link>https://blog.gennei.coffee/post/espresso-ec152j/</link>
       <pubDate>Tue, 31 Oct 2017 22:41:00 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/espresso-ec152j/</guid>
+      <guid>https://blog.gennei.coffee/post/espresso-ec152j/</guid>
       <description>デロンギ エスプレッソマシン EC152Jを買った
 エスプレッソマシンは10万円ぐらいするだろうと思っていたが、1万円以下で買えると知ったので試しに買ってみた。いろいろと器具は持っているが、エスプレッソマシンマシンとミルクウォーマーは持っていなかったのでこの1台でできることがかなり増えた。
 エスプレッソだったり、ラテだったり練習しているがなかなかうまくいかない。もう少し参考にできそうなところで観察して上達したい。</description>
@@ -84,10 +84,10 @@
     
     <item>
       <title>『わかばちゃんと学ぶGit使い方入門』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/learn-git-wtih-wakaba/</link>
+      <link>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</link>
       <pubDate>Mon, 09 Oct 2017 23:47:55 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/learn-git-wtih-wakaba/</guid>
+      <guid>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</guid>
       <description>最近エンジニアではない職種の方にGitの使い方を教える機会が何度かあった。
 普段見ないであろう、背景が黒くて(mac の標準のターミナルは白だが)文字しか表示されていないターミナルで教えるのだがこれが難しい。 普段からターミナルを使っている人であれば、コマンド操作で何ができるのか、何ができると便利なのかということはわかっていたりする。しかし普段からCUIではなくGUIで操作をしている人から見れば謎の暗号が画面に表示されていて、映画のクラッキングのシーン or マトリックスで観たような画面が表示されているように見えているのであろう。
 そういう人に対して、Git とはなにか、Git と Github は何が違うのか、git commit -m、 git checkout、 git pull、などを短時間で教えるのはとても難しい。 もちろんGitの入門本は存在するし読んでもらうのもいい。代表的なところだと 『GitHub実践入門』 、『入門Git』 などがあるだろう。しかしこのような本でもターミナルで操作するこを前提としており、ターミナルの操作を独学するのはとてもハードルが高い。エンジニアには『GitHub実践入門』を渡しておけばいいだろうと思っているが、そうではない人には何を使ってもらえばいいだろうか今まで悩んでいた。
@@ -99,10 +99,10 @@
     
     <item>
       <title>ダンケルク観た</title>
-      <link>https://gennei.github.io/blog/post/dunkirk/</link>
+      <link>https://blog.gennei.coffee/post/dunkirk/</link>
       <pubDate>Tue, 19 Sep 2017 23:34:21 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/dunkirk/</guid>
+      <guid>https://blog.gennei.coffee/post/dunkirk/</guid>
       <description> あらすじ  生き抜け。
 海の町ダンケルクに追い詰められた英仏軍40万人。
 若き兵士トミーは絶体絶命の地から脱出できるのか？
@@ -121,10 +121,10 @@
     
     <item>
       <title>第20回文化庁メディア芸術祭に行った</title>
-      <link>https://gennei.github.io/blog/post/the-20th-media-art-festival/</link>
+      <link>https://blog.gennei.coffee/post/the-20th-media-art-festival/</link>
       <pubDate>Mon, 18 Sep 2017 22:14:46 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/the-20th-media-art-festival/</guid>
+      <guid>https://blog.gennei.coffee/post/the-20th-media-art-festival/</guid>
       <description>第20回：　受賞作品発表　4,034作品の応募から、ついに決定!
 なんだかんだ毎年行っている「メディア芸術祭」 今年から会場が六本木のミッドタウンから初台の東京オペラシティに移った。なんだかんだ年に数回東京オペラシティに行っている気がする。
 メディア芸術祭は、毎年受賞作品を見ても知らない作品ばかりで自分にとっては新しい作品との出会う場になっていた。
@@ -136,10 +136,10 @@
     
     <item>
       <title>映画『パターソン』を観た</title>
-      <link>https://gennei.github.io/blog/post/paterson/</link>
+      <link>https://blog.gennei.coffee/post/paterson/</link>
       <pubDate>Mon, 18 Sep 2017 18:59:11 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/paterson/</guid>
+      <guid>https://blog.gennei.coffee/post/paterson/</guid>
       <description> あらすじ  ニュージャージー州パターソンに住むバス運転手のパターソン（アダム・ドライバー）。彼の1日は朝、隣に眠る妻ローラ（ゴルシフテ・ファラハニ）にキスをして始まる。いつものように仕事に向かい、乗務をこなす中で、心に芽生える詩を秘密のノートに書きとめていく。帰宅して妻と夕食を取り、愛犬マーヴィンと夜の散歩。バーへ立ち寄り、1杯だけ飲んで帰宅しローラの隣で眠りにつく。そんな一見変わりのない毎日。パターソンの日々を、ユニークな人々との交流と、思いがけない出会いと共に描く、ユーモアと優しさに溢れた7日間の物語。
  公式HPより
 予告  感想 友人から『パターソン』が面白いらしいという評判を聞いて見に行った。
@@ -149,10 +149,10 @@
     
     <item>
       <title>BABY DRIVER を見た</title>
-      <link>https://gennei.github.io/blog/post/baby-driver/</link>
+      <link>https://blog.gennei.coffee/post/baby-driver/</link>
       <pubDate>Sun, 10 Sep 2017 20:30:07 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/baby-driver/</guid>
+      <guid>https://blog.gennei.coffee/post/baby-driver/</guid>
       <description>映画『BABY DRIVER』 を見た。
 あらすじ
  ベイビー（アンセル・エルゴート）。その天才的なドライビング・センスが買われ、組織の運転手として彼に課せられた仕事―それは、銀行、現金輸送車を襲ったメンバーを確実に「逃がす」こと。子供の頃の交通事故が原因で耳鳴りに悩まされ続けているベイビー。しかし、音楽を聴くことで、耳鳴りがかき消され、そのドライビング・テクニックがさらに覚醒する。そして誰も止めることができない、追いつくことすらできない、イカれたドライバーへと変貌する―。 組織のボスで作戦担当のドク（ケヴィン・スペイシー）、すぐにブチ切れ銃をブッ放すバッツ（ジェイミー・フォックス）、凶暴すぎる夫婦、バディ（ジョン・ハム）とダーリン（エイザ・ゴンザレス）。彼らとの仕事にスリルを覚え、才能を活かしてきたベイビー。しかし、このクレイジーな環境から抜け出す決意をする―それは、恋人デボラ（リリー・ジェームズ）の存在を組織に嗅ぎつけられたからだ。自ら決めた“最後の仕事”＝“合衆国郵便局の襲撃”がベイビーと恋人と組織を道連れに暴走を始める―。
@@ -166,10 +166,10 @@ Youtube で最初の6分間を視聴できるので見て欲しい
     
     <item>
       <title>ボードゲームをやった</title>
-      <link>https://gennei.github.io/blog/post/board-game/</link>
+      <link>https://blog.gennei.coffee/post/board-game/</link>
       <pubDate>Sat, 09 Sep 2017 12:01:29 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/board-game/</guid>
+      <guid>https://blog.gennei.coffee/post/board-game/</guid>
       <description>池袋にある「JELLY JELLY CAFE」というボードゲームで遊べるお店に行った。 http://jellyjellycafe.com/shoplist/ikebukuro
 友達4人と下記のゲームで遊んだ。
 遊んだゲーム知覧  ドメモ ハゲタカのえじき 犯人は踊る コヨーテ ベガス  遅れていったので「犯人は踊る」、「コヨーテ」、「ベガス」の3つだけだったがとても楽しめた。</description>
@@ -177,10 +177,10 @@ Youtube で最初の6分間を視聴できるので見て欲しい
     
     <item>
       <title>Hugo &#43; github-pages でブログを作った</title>
-      <link>https://gennei.github.io/blog/post/hubo-new-post/</link>
+      <link>https://blog.gennei.coffee/post/hubo-new-post/</link>
       <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/hubo-new-post/</guid>
+      <guid>https://blog.gennei.coffee/post/hubo-new-post/</guid>
       <description>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
 導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。

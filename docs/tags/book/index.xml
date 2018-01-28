@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book on gennei&#39;s blog</title>
-    <link>https://gennei.github.io/blog/tags/book/</link>
+    <link>https://blog.gennei.coffee/tags/book/</link>
     <description>Recent content in Book on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://gennei.github.io/blog/tags/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.gennei.coffee/tags/book/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>『21世紀のブランドを創る 「星乃珈琲店」誕生物語』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/birth-of-hoshino-coffee/</link>
+      <link>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/birth-of-hoshino-coffee/</guid>
+      <guid>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</guid>
       <description> 『21世紀のブランドを創る「星乃珈琲店」誕生物語』を読んだ
 あらすじ  だから、私は「星乃珈琲店」を立ち上げた。創業から35年目にして初めて対前年比100%を切った。翌月には85.5%まで落ち込んだ。私は逆転の発想、新たな可能性に思い当たった。準備されたシナリオどおりに事を進めたのではなく、どのように風を読んできたか、いかに市場に聞きながら、微調整をしてきたかの物語。
  openbdより
@@ -33,10 +33,10 @@
     
     <item>
       <title>『スクリプトドクターのプレゼンテーション術』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/presentation-doctor/</link>
+      <link>https://blog.gennei.coffee/post/presentation-doctor/</link>
       <pubDate>Fri, 03 Nov 2017 21:34:06 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/presentation-doctor/</guid>
+      <guid>https://blog.gennei.coffee/post/presentation-doctor/</guid>
       <description> 『スクリプトドクターのプレゼンテーション術』を読んだ
 内容紹介 マーケティングや資料作りの話はいっさいナシ。 革新的で本質的なプレゼン術！ 脚本家／映画監督／脚本のお医者さん＝「スクリプトドクター」／心理カウンセラーの筆者による、まったく新しいプレゼン指南書。 TBSラジオの人気番組『ライムスター宇多丸のウィークエンド・シャッフル』で披露してきた数々の名プレゼン、その極意に迫る！ 聴き手をジャガイモと思い込んではいけません／プレゼンとは人数に関係なく「対話」である／自己開示こそがプレゼンの真髄／ポップスの「転調」にヒントを得て／自分を疑うことで「他人の眼差し」に近づいていく／怒っているように見えるひとは実は傷ついている／空気を読もうとすると自分の役割を見失う／あなたの資質は「グランプリ」なのか「審査員特別賞」なのか？ など……  openbdより
 感想 プレゼンテーションに関する本を本屋で探すと多くの本は、「綺麗なスライドの作り方」、「喋る内容の構造」、「話し方」などを解説した本がたくさんある。しかし、この本はプレゼンテーションとは何かということについて書かれている。
@@ -48,10 +48,10 @@
     
     <item>
       <title>『わかばちゃんと学ぶGit使い方入門』を読んだ</title>
-      <link>https://gennei.github.io/blog/post/learn-git-wtih-wakaba/</link>
+      <link>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</link>
       <pubDate>Mon, 09 Oct 2017 23:47:55 +0900</pubDate>
       
-      <guid>https://gennei.github.io/blog/post/learn-git-wtih-wakaba/</guid>
+      <guid>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</guid>
       <description>最近エンジニアではない職種の方にGitの使い方を教える機会が何度かあった。
 普段見ないであろう、背景が黒くて(mac の標準のターミナルは白だが)文字しか表示されていないターミナルで教えるのだがこれが難しい。 普段からターミナルを使っている人であれば、コマンド操作で何ができるのか、何ができると便利なのかということはわかっていたりする。しかし普段からCUIではなくGUIで操作をしている人から見れば謎の暗号が画面に表示されていて、映画のクラッキングのシーン or マトリックスで観たような画面が表示されているように見えているのであろう。
 そういう人に対して、Git とはなにか、Git と Github は何が違うのか、git commit -m、 git checkout、 git pull、などを短時間で教えるのはとても難しい。 もちろんGitの入門本は存在するし読んでもらうのもいい。代表的なところだと 『GitHub実践入門』 、『入門Git』 などがあるだろう。しかしこのような本でもターミナルで操作するこを前提としており、ターミナルの操作を独学するのはとてもハードルが高い。エンジニアには『GitHub実践入門』を渡しておけばいいだろうと思っているが、そうではない人には何を使ってもらえばいいだろうか今まで悩んでいた。
