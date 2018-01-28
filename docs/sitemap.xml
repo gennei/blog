@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/gennei-coffee-domain/</loc>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</loc>
     <lastmod>2017-12-13T00:00:00+09:00</lastmod>
   </url>
@@ -71,7 +76,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/tags/blog/</loc>
-    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +99,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/tags/coffee/</loc>
-    <lastmod>2017-12-13T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +147,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2017-12-13T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,8 +164,14 @@
   </url>
   
   <url>
+    <loc>https://blog.gennei.coffee/tags/tech/</loc>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2017-12-13T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-28T23:49:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
