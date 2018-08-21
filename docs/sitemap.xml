@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/hibilife/</loc>
+    <lastmod>2018-08-19T17:01:01+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/perfume-technology/</loc>
     <lastmod>2018-03-22T23:29:41+09:00</lastmod>
   </url>
@@ -158,7 +163,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2018-03-22T23:29:41+09:00</lastmod>
+    <lastmod>2018-08-19T17:01:01+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,7 +199,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2018-03-22T23:29:41+09:00</lastmod>
+    <lastmod>2018-08-19T17:01:01+09:00</lastmod>
     <priority>0</priority>
   </url>
   
