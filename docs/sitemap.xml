@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/twitter-access-denied/</loc>
+    <lastmod>2018-09-02T21:14:50+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/discrete-figures/</loc>
     <lastmod>2018-09-01T14:37:42+09:00</lastmod>
   </url>
@@ -168,7 +173,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2018-09-01T14:37:42+09:00</lastmod>
+    <lastmod>2018-09-02T21:14:50+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -204,7 +209,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2018-09-01T14:37:42+09:00</lastmod>
+    <lastmod>2018-09-02T21:14:50+09:00</lastmod>
     <priority>0</priority>
   </url>
   
