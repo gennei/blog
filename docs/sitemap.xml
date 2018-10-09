@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/the-world-is-only-here/</loc>
+    <lastmod>2018-10-09T23:27:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/techbook-fest5/</loc>
     <lastmod>2018-10-08T16:51:11+09:00</lastmod>
   </url>
@@ -178,7 +183,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2018-10-08T16:51:11+09:00</lastmod>
+    <lastmod>2018-10-09T23:27:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -214,7 +219,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2018-10-08T16:51:11+09:00</lastmod>
+    <lastmod>2018-10-09T23:27:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
