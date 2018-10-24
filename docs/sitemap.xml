@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/2018-fall-trip-3rd/</loc>
+    <lastmod>2018-10-24T23:45:05+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/2018-fall-trip-2nd/</loc>
     <lastmod>2018-10-24T23:26:35+09:00</lastmod>
   </url>
@@ -193,7 +198,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2018-10-24T23:26:35+09:00</lastmod>
+    <lastmod>2018-10-24T23:45:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -229,13 +234,13 @@
   
   <url>
     <loc>https://blog.gennei.coffee/tags/trip/</loc>
-    <lastmod>2018-10-24T23:26:35+09:00</lastmod>
+    <lastmod>2018-10-24T23:45:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2018-10-24T23:26:35+09:00</lastmod>
+    <lastmod>2018-10-24T23:45:05+09:00</lastmod>
     <priority>0</priority>
   </url>
   
