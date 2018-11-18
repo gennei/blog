@@ -6,10 +6,23 @@
     <description>Recent content on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Oct 2018 23:45:05 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Nov 2018 23:03:43 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.gennei.coffee/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>おすすめの4Kモニタはどれですか？</title>
+      <link>https://blog.gennei.coffee/post/which-4k-monitor-is-recommended/</link>
+      <pubDate>Sun, 18 Nov 2018 23:03:43 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/which-4k-monitor-is-recommended/</guid>
+      <description>最近自宅の作業環境の整理した。MacBookProに開発ツールをインストールして外部モニタに接続して広い画面で開発できるようにした。
+しかし外部モニタが古いため解像度が足りない。なのでモニタを買い換えるためにいろいろ調べた。そして以下が候補になった。
+LG ディスプレイ 24UD58-B 23.8インチ LG モニター ディスプレイ 24UD58-B 23.8インチ/4K(3840×2160)/IPS 非光沢/HDMI×2、DisplayPort/ブルーライト低減機能この記事を書いている時点で価格が ￥32,378。さらに何故か10%オフのクーポンが付いており、3万円を切っている。
+BenQ ディスプレイ EL2870U 27.9インチ 【PS4 Pro対応】BenQ ゲーミングモニター ディスプレイ EL2870U 27.9インチ/4K/HDR/TN/1ms/FreeSync対応/HDMI×2/DP1.4/スピーカー/アイケア機能B.I.+画面サイズを1つ大きくすると ¥44,800。少し高い。
+いろいろ調べた結果最近のモニタにあると便利な機能がなんなのかということがよくわからなかったのでおすすめのモニタが適当進められたい。</description>
+    </item>
     
     <item>
       <title>大分、熊本、福岡に旅行に行った。3日目</title>
