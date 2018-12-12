@@ -1,6 +1,6 @@
 ---
-title: "外から眺めていたしがないラジオ"
-date: 2018-12-12T00:00:00+09:00
+title: "外から眺めていたしがないラジオ #しがないラジオ"
+date: 2018-12-13T00:00:00+09:00
 draft: false
 tags: ["podcast", "しがないラジオ"]
 ---
@@ -12,7 +12,7 @@ tags: ["podcast", "しがないラジオ"]
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-↑ のツイートの後 ↓ のツイートが
+↑ のツイートの後のツイートが ↓ 
 
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">需要をみたのでつくった。1日と2日は中の人のために開けておいた |&gt; しがないラジオ Advent Calendar 2017 - Adventar <a href="https://t.co/mEILreOA8v">https://t.co/mEILreOA8v</a></p>&mdash; てぃーびー (@tbpgr) <a href="https://twitter.com/tbpgr/status/926235962635583488?ref_src=twsrc%5Etfw">2017年11月2日</a></blockquote>
@@ -39,7 +39,6 @@ tags: ["podcast", "しがないラジオ"]
 最初の頃はフィードバックが少なく再生数も伸び悩んでいたようだが、とにかく継続して外部のコミュニティでLTなどの発表をしたときに宣伝することで拡散されていくのを見ていた。小さな積み重ねを継続したことによって上手に周りに人を巻き込み、現在のコミュニティのサイズになったり、多くの人との繋がりができたんだなあと思ったりした。特に [@zuckey_17](https://twitter.com/zuckey_17) さんは自分から話に行くのが苦手だと周りからいじられたりしていたが、[#しがないラジオmeetup 2](https://shiganai.connpass.com/event/106153/) では積極的に話しかけに行くようになっていて、人って変われるんだなあと思わされました。
 
 [@jumpei_ikegami](https://twitter.com/jumpei_ikegami)さん, [@zuckey_17](https://twitter.com/zuckey_17)さん のいいバランスで podcast が続いているので今後もいろいろなゲストを呼んでたくさんのエンジニアの話を聞ければいいなと思っています。
-
 
 ---
 
