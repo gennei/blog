@@ -1,5 +1,5 @@
 ---
-title: "コーヒーに憑かれた男たち - Coffee Advent Calendar 2018 13日"
+title: "コーヒーに憑かれた男たち - Coffee Advent Calendar 2018 13日目"
 date: 2018-12-13T00:00:00+09:00
 draft: false
 tags: ["coffee"]
