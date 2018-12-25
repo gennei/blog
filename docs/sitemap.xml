@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/post/coffee-advent-calendar-2018-17/</loc>
+    <lastmod>2018-12-17T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/coffee-advent-calendar-2018-16/</loc>
     <lastmod>2018-12-16T00:00:00+09:00</lastmod>
   </url>
@@ -224,7 +229,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/tags/coffee/</loc>
-    <lastmod>2018-12-16T00:00:00+09:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -284,7 +289,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2018-12-16T00:00:00+09:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -326,7 +331,7 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2018-12-16T00:00:00+09:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
