@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on gennei&#39;s blog</title>
+    <title>tech on gennei&#39;s blog</title>
     <link>https://blog.gennei.coffee/tags/tech/</link>
-    <description>Recent content in Tech on gennei&#39;s blog</description>
+    <description>Recent content in tech on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 28 Jan 2018 23:49:22 +0900</lastBuildDate>
