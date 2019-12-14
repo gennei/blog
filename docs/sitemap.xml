@@ -3,30 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.gennei.coffee/post/2019-kamihanki-book/</loc>
-    <lastmod>2019-07-08T22:57:57+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2019-07-08T22:57:57+09:00</lastmod>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/</loc>
-    <lastmod>2019-07-08T22:57:57+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.gennei.coffee/tags/book/</loc>
-    <lastmod>2019-07-08T22:57:57+09:00</lastmod>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/morisaki-twins-speak-mind/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/%E3%81%86%E3%81%A4%E7%97%85/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/%E3%82%B5%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%81%E3%82%A7%E5%BA%83%E5%B3%B6/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E5%85%84%E5%BC%9F/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E5%92%8C%E5%B9%B8/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E6%B5%A9%E5%8F%B8/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/2019-kamihanki-book/</loc>
+    <lastmod>2019-07-08T22:57:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/book/</loc>
     <lastmod>2019-07-08T22:57:57+09:00</lastmod>
     <priority>0</priority>
   </url>
