@@ -8,27 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Hugo &#43; github-pages でブログを作った - gennei&#39;s blog</title>
-  <meta property="og:title" content="Hugo &#43; github-pages でブログを作った" />
-  <meta name="twitter:title" content="Hugo &#43; github-pages でブログを作った" />
   <meta name="description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post/entry-title  これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w  これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo  これで ./public に 公開用のHTMLが作成される。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
 公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &quot;docs&quot;  としておくと .">
-  <meta property="og:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
-そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post/entry-title  これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w  これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo  これで ./public に 公開用のHTMLが作成される。
-公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &quot;docs&quot;  としておくと .">
-  <meta name="twitter:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
-そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site …">
+publishDir = &#34;docs&#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。">
   <meta name="author" content="gennei"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -77,7 +64,7 @@ publishDir = &quot;docs&quot;  としておくと .">
     "name" : "gennei"
   },
   "headline": "Hugo \x2b github-pages でブログを作った",
-  "description" : "はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。\nそこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。\n導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。\nテーマをダウンロード $ cd .\/themes $ git clone https:\/\/github.com\/halogenica\/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post\/entry-title  これで content\/post\/entry-title.md という記事ができあがる。\n手元で確認する $ hugo server -t beautifulhugo -D -w  これで http:\/\/localhost:1313\/ 確認できる。\n公開用のHTMLを作成する $ hugo -t beautifulhugo  これで .\/public に 公開用のHTMLが作成される。\n公開用のディレクトリを変更する config.toml の設定を書き換える。\npublishDir = \x26quot;docs\x26quot;  としておくと .",
+  "description" : "はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。\nそこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。\n導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。\nテーマをダウンロード $ cd .\/themes $ git clone https:\/\/github.com\/halogenica\/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post\/entry-title これで content\/post\/entry-title.md という記事ができあがる。\n手元で確認する $ hugo server -t beautifulhugo -D -w これで http:\/\/localhost:1313\/ 確認できる。\n公開用のHTMLを作成する $ hugo -t beautifulhugo これで .\/public に 公開用のHTMLが作成される。\n公開用のディレクトリを変更する config.toml の設定を書き換える。\npublishDir = \x26#34;docs\x26#34; としておくと .\/docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。",
   "inLanguage" : "en",
   "wordCount":  72 ,
   "datePublished" : "2017-09-03T15:05:48",
@@ -101,12 +88,12 @@ publishDir = &quot;docs&quot;  としておくと .">
 <meta property="og:title" content="Hugo &#43; github-pages でブログを作った" />
 <meta property="og:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post/entry-title  これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w  これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo  これで ./public に 公開用のHTMLが作成される。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
 公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &quot;docs&quot;  としておくと .">
+publishDir = &#34;docs&#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。">
 <meta property="og:url" content="https://blog.gennei.coffee/post/hubo-new-post/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="gennei&#39;s blog" />
@@ -114,18 +101,11 @@ publishDir = &quot;docs&quot;  としておくと .">
   <meta name="twitter:title" content="Hugo &#43; github-pages でブログを作った" />
   <meta name="twitter:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site …">
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site …">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@gennei" />
   <meta name="twitter:creator" content="@gennei" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@gennei" />
-  <meta name="twitter:creator" content="@gennei" />
-  <meta property="og:url" content="https://blog.gennei.coffee/post/hubo-new-post/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="gennei&#39;s blog" />
-
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.62.1" />
   <link rel="alternate" href="https://blog.gennei.coffee/index.xml" type="application/rss+xml" title="gennei&#39;s blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://blog.gennei.coffee/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -257,7 +237,9 @@ if (!doNotTrack) {
   
   
   
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;gennei
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;gennei
+    
   
   
 </span>
@@ -277,61 +259,30 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。<br />
+        <p>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。<br>
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやら<a href="https://awe-some.net/2017/01/statatic-site-generator/">いくつかの方法</a>があるようだが、hugo の評判がいいので hugo を採用した。</p>
-
-<h2 id="導入ログ">導入ログ</h2>
-
-<h3 id="hugo-をインストール">hugo をインストール</h3>
-
-<pre><code class="language-sh">$ brew install hugo
-</code></pre>
-
-<h3 id="blog-を作る">blog を作る</h3>
-
-<pre><code class="language-sh">$ hugo new site blog
-</code></pre>
-
-<p>これだけで作れたのでとても楽だった。</p>
-
-<h3 id="テーマをダウンロード">テーマをダウンロード</h3>
-
+<h2 id="heading">導入ログ</h2>
+<h3 id="hugo-">hugo をインストール</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew install hugo
+</code></pre></div><h3 id="blog-">blog を作る</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo new site blog
+</code></pre></div><p>これだけで作れたのでとても楽だった。</p>
+<h3 id="heading-1">テーマをダウンロード</h3>
 <pre><code>$ cd ./themes
 $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
-</code></pre>
-
-<h3 id="エントリを書く">エントリを書く</h3>
-
-<pre><code class="language-sh">$ hugo new post/entry-title
-</code></pre>
-
-<p>これで <code>content/post/entry-title.md</code> という記事ができあがる。</p>
-
-<h3 id="手元で確認する">手元で確認する</h3>
-
+</code></pre><h3 id="heading-2">エントリを書く</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo new post/entry-title
+</code></pre></div><p>これで <code>content/post/entry-title.md</code> という記事ができあがる。</p>
+<h3 id="heading-3">手元で確認する</h3>
 <pre><code>$ hugo server -t beautifulhugo -D -w
-</code></pre>
-
-<p>これで <code>http://localhost:1313/</code> 確認できる。</p>
-
-<h3 id="公開用のhtmlを作成する">公開用のHTMLを作成する</h3>
-
+</code></pre><p>これで <code>http://localhost:1313/</code> 確認できる。</p>
+<h3 id="html">公開用のHTMLを作成する</h3>
 <pre><code>$ hugo -t beautifulhugo
-</code></pre>
-
-<p>これで <code>./public</code> に 公開用のHTMLが作成される。</p>
-
-<h3 id="公開用のディレクトリを変更する">公開用のディレクトリを変更する</h3>
-
+</code></pre><p>これで <code>./public</code> に 公開用のHTMLが作成される。</p>
+<h3 id="heading-4">公開用のディレクトリを変更する</h3>
 <p><code>config.toml</code> の設定を書き換える。</p>
-
-<pre><code class="language-toml">publishDir = &quot;docs&quot;
-</code></pre>
-
-<p>としておくと <code>./docs</code> に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">publishDir</span> = <span style="color:#e6db74">&#34;docs&#34;</span>
+</code></pre></div><p>としておくと <code>./docs</code> に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</p>
 <p>簡単だ。</p>
 
 
@@ -370,7 +321,8 @@ $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
   </div>
 </div>
 
-    <footer>
+      
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -430,7 +382,7 @@ $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.55.6</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          <a href="https://gohugo.io">Hugo v0.62.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
@@ -452,6 +404,7 @@ $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 
 
 
+    
   </body>
 </html>
 

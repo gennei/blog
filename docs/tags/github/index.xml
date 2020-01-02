@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on gennei&#39;s blog</title>
@@ -19,11 +19,10 @@
       <guid>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</guid>
       <description>最近エンジニアではない職種の方にGitの使い方を教える機会が何度かあった。
 普段見ないであろう、背景が黒くて(mac の標準のターミナルは白だが)文字しか表示されていないターミナルで教えるのだがこれが難しい。 普段からターミナルを使っている人であれば、コマンド操作で何ができるのか、何ができると便利なのかということはわかっていたりする。しかし普段からCUIではなくGUIで操作をしている人から見れば謎の暗号が画面に表示されていて、映画のクラッキングのシーン or マトリックスで観たような画面が表示されているように見えているのであろう。
-そういう人に対して、Git とはなにか、Git と Github は何が違うのか、git commit -m、 git checkout、 git pull、などを短時間で教えるのはとても難しい。 もちろんGitの入門本は存在するし読んでもらうのもいい。代表的なところだと 『GitHub実践入門』 、『入門Git』 などがあるだろう。しかしこのような本でもターミナルで操作するこを前提としており、ターミナルの操作を独学するのはとてもハードルが高い。エンジニアには『GitHub実践入門』を渡しておけばいいだろうと思っているが、そうではない人には何を使ってもらえばいいだろうか今まで悩んでいた。
+そういう人に対して、Git とはなにか、Git と Github は何が違うのか、git commit -m 、 git checkout、 git pull、などを短時間で教えるのはとても難しい。 もちろんGitの入門本は存在するし読んでもらうのもいい。代表的なところだと 『GitHub実践入門』 、『入門Git』 などがあるだろう。しかしこのような本でもターミナルで操作するこを前提としており、ターミナルの操作を独学するのはとてもハードルが高い。エンジニアには『GitHub実践入門』を渡しておけばいいだろうと思っているが、そうではない人には何を使ってもらえばいいだろうか今まで悩んでいた。
 最近、『わかばちゃんと学ぶGit使い方入門』 という本が発売していた。内容はTwitterで見かけたことがあったのでなんとなくは知っていた。そしてGitの使い方で困っていることはないので読む必要はないかなあと思っていた。しかし最近使い方を教える機会が増えたのでなにか入門本に適切ではないかと思い勧めるようになった。
 実際読んでみるとイラストでバージョン管理の必要性や、GitとGithubの違い、ブランチ操作などが説明されておりとてもわかりやすい。SourceTreeの使い方の紹介があるのでターミナルでの操作を覚える必要がないのもいい。最初にGitを使ってもらうためのハードルがとても下げられている。
-バージョン管理とはなにか、Gitとは何かを説明するにはとてもいい本でした。
-わかばちゃんと学ぶ Git使い方入門〈GitHub、Bitbucket、SourceTree〉著者 : 湊川あいシーアンドアール研究所発売日 : 2017-04-21ブクログでレビューを見る» </description>
+バージョン管理とはなにか、Gitとは何かを説明するにはとてもいい本でした。</description>
     </item>
     
     <item>
@@ -34,12 +33,12 @@
       <guid>https://blog.gennei.coffee/post/hubo-new-post/</guid>
       <description>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
 そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo  blog を作る $ hugo new site blog  これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo  エントリを書く $ hugo new post/entry-title  これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w  これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo  これで ./public に 公開用のHTMLが作成される。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
 公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &amp;quot;docs&amp;quot;  としておくと .</description>
+publishDir = &amp;#34;docs&amp;#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</description>
     </item>
     
   </channel>

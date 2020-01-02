@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.gennei.coffee/</loc>
+    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -28,31 +25,26 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/%E3%81%86%E3%81%A4%E7%97%85/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/%E3%82%B5%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%81%E3%82%A7%E5%BA%83%E5%B3%B6/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E5%85%84%E5%BC%9F/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E5%92%8C%E5%B9%B8/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/%E6%A3%AE%E5%B4%8E%E6%B5%A9%E5%8F%B8/</loc>
     <lastmod>2019-12-14T21:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -63,13 +55,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/book/</loc>
     <lastmod>2019-07-08T22:57:57+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/coffee/</loc>
     <lastmod>2018-12-18T00:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -100,13 +90,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/podcast/</loc>
     <lastmod>2018-12-13T00:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/%E3%81%97%E3%81%8C%E3%81%AA%E3%81%84%E3%83%A9%E3%82%B8%E3%82%AA/</loc>
     <lastmod>2018-12-13T00:00:00+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -177,7 +165,6 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/trip/</loc>
     <lastmod>2018-10-24T23:45:05+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -221,32 +208,28 @@
   </url>
   
   <url>
-    <loc>https://blog.gennei.coffee/post/perfume-technology/</loc>
-    <lastmod>2018-03-22T23:29:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.gennei.coffee/tags/art/</loc>
     <lastmod>2018-03-22T23:29:41+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/perfume/</loc>
     <lastmod>2018-03-22T23:29:41+09:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/perfume-technology/</loc>
+    <lastmod>2018-03-22T23:29:41+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/rhizomatiks/</loc>
     <lastmod>2018-03-22T23:29:41+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/technology/</loc>
     <lastmod>2018-03-22T23:29:41+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -257,13 +240,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/blog/</loc>
     <lastmod>2018-01-28T23:49:22+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/tech/</loc>
     <lastmod>2018-01-28T23:49:22+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -279,13 +260,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/doctor/</loc>
     <lastmod>2017-11-03T21:34:06+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/presentation/</loc>
     <lastmod>2017-11-03T21:34:06+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -301,13 +280,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/git/</loc>
     <lastmod>2017-10-09T23:47:55+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/github/</loc>
     <lastmod>2017-10-09T23:47:55+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -318,7 +295,6 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/movie/</loc>
     <lastmod>2017-09-19T23:34:21+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -329,13 +305,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/animation/</loc>
     <lastmod>2017-09-18T22:14:46+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/manga/</loc>
     <lastmod>2017-09-18T22:14:46+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -356,13 +330,11 @@
   <url>
     <loc>https://blog.gennei.coffee/tags/music/</loc>
     <lastmod>2017-09-10T20:30:07+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/boardgame/</loc>
     <lastmod>2017-09-09T12:01:29+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -371,19 +343,17 @@
   </url>
   
   <url>
+    <loc>https://blog.gennei.coffee/tags/hugo/</loc>
+    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.gennei.coffee/post/hubo-new-post/</loc>
     <lastmod>2017-09-03T15:05:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.gennei.coffee/tags/hugo/</loc>
-    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.gennei.coffee/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
