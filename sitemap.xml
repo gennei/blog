@@ -4,17 +4,37 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/github/</loc>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/githubactions/</loc>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/hugo/</loc>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/github-actions-for-hugo/</loc>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.gennei.coffee/tags/</loc>
-    <lastmod>2019-12-14T21:00:00+09:00</lastmod>
+    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
   </url>
   
   <url>
@@ -283,11 +303,6 @@
   </url>
   
   <url>
-    <loc>https://blog.gennei.coffee/tags/github/</loc>
-    <lastmod>2017-10-09T23:47:55+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</loc>
     <lastmod>2017-10-09T23:47:55+09:00</lastmod>
   </url>
@@ -340,11 +355,6 @@
   <url>
     <loc>https://blog.gennei.coffee/post/board-game/</loc>
     <lastmod>2017-09-09T12:01:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.gennei.coffee/tags/hugo/</loc>
-    <lastmod>2017-09-03T15:05:48+09:00</lastmod>
   </url>
   
   <url>

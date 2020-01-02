@@ -7,12 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>discrete figures を鑑賞した - gennei&#39;s blog</title>
-  <meta name="description" content="discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald
-AI、機械学習を通じた道のダンス表現への挑戦 という言葉がチラシに書いてあった。 正直ダンスというものをMV程度でしか見る機会がないのでコンテンポラリダンスはなにを表現したのかよくわからないという感想しか持てない。 ただ、今回のダンスはRhizomatiksが技術提供をしているので技術的な部分ではとてもわくわくした。
- アラン・チューリングは「脳」を数学を用いることによって「身体」の外に対象化し、自分の「身体」の外に拡張することで、もう一人の自分を作り出した。他人から見ればもう一人の自分は身体とは切り離された存在だが、チューリングにとってその身体は他者ではなく身体そのものであり数学をすることで生み出された鏡である。
-―真鍋大度
- うーんわからない 🤔">
+  <title>Hugo の build を Github Actions で実行するようにした - gennei&#39;s blog</title>
+  <meta name="description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
+手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
+ https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;0.">
   <meta name="author" content="gennei"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -48,8 +46,8 @@ AI、機械学習を通じた道のダンス表現への挑戦 という言葉�
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/blog.gennei.coffee\/post\/discrete-figures\/",
-          "name": "Discrete figures を鑑賞した"
+          "@id": "https:\/\/blog.gennei.coffee\/post\/github-actions-for-hugo\/",
+          "name": "Hugo の build を github actions で実行するようにした"
         }
     }]
 }
@@ -60,15 +58,15 @@ AI、機械学習を通じた道のダンス表現への挑戦 という言葉�
   "author": {
     "name" : "gennei"
   },
-  "headline": "discrete figures を鑑賞した",
-  "description" : "discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald\nAI、機械学習を通じた道のダンス表現への挑戦 という言葉がチラシに書いてあった。 正直ダンスというものをMV程度でしか見る機会がないのでコンテンポラリダンスはなにを表現したのかよくわからないという感想しか持てない。 ただ、今回のダンスはRhizomatiksが技術提供をしているので技術的な部分ではとてもわくわくした。\n アラン・チューリングは「脳」を数学を用いることによって「身体」の外に対象化し、自分の「身体」の外に拡張することで、もう一人の自分を作り出した。他人から見ればもう一人の自分は身体とは切り離された存在だが、チューリングにとってその身体は他者ではなく身体そのものであり数学をすることで生み出された鏡である。\n―真鍋大度\n うーんわからない 🤔",
+  "headline": "Hugo の build を Github Actions で実行するようにした",
+  "description" : "今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。\n手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。\n https:\/\/github.com\/peaceiris\/actions-hugo#getting-started https:\/\/qiita.com\/kaakaa_hoe\/items\/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions\/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris\/actions-hugo@v2 with: hugo-version: \x26#39;0.",
   "inLanguage" : "en",
-  "wordCount":  13 ,
-  "datePublished" : "2018-09-01T14:37:42",
-  "dateModified" : "2018-09-01T14:37:42",
+  "wordCount":  162 ,
+  "datePublished" : "2020-01-02T21:37:37",
+  "dateModified" : "2020-01-02T21:37:37",
   "image" : "https:\/\/blog.gennei.coffee\/",
-  "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/blog.gennei.coffee\/post\/discrete-figures\/",
+  "keywords" : [ "github, hugo, GithubActions" ],
+  "mainEntityOfPage" : "https:\/\/blog.gennei.coffee\/post\/github-actions-for-hugo\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/blog.gennei.coffee\/",
@@ -82,19 +80,16 @@ AI、機械学習を通じた道のダンス表現への挑戦 という言葉�
 }
 </script>
 
-<meta property="og:title" content="discrete figures を鑑賞した" />
-<meta property="og:description" content="discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald
-AI、機械学習を通じた道のダンス表現への挑戦 という言葉がチラシに書いてあった。 正直ダンスというものをMV程度でしか見る機会がないのでコンテンポラリダンスはなにを表現したのかよくわからないという感想しか持てない。 ただ、今回のダンスはRhizomatiksが技術提供をしているので技術的な部分ではとてもわくわくした。
- アラン・チューリングは「脳」を数学を用いることによって「身体」の外に対象化し、自分の「身体」の外に拡張することで、もう一人の自分を作り出した。他人から見ればもう一人の自分は身体とは切り離された存在だが、チューリングにとってその身体は他者ではなく身体そのものであり数学をすることで生み出された鏡である。
-―真鍋大度
- うーんわからない 🤔">
-<meta property="og:url" content="https://blog.gennei.coffee/post/discrete-figures/" />
+<meta property="og:title" content="Hugo の build を Github Actions で実行するようにした" />
+<meta property="og:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
+手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
+ https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;0.">
+<meta property="og:url" content="https://blog.gennei.coffee/post/github-actions-for-hugo/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="gennei&#39;s blog" />
 
-  <meta name="twitter:title" content="discrete figures を鑑賞した" />
-  <meta name="twitter:description" content="discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald
-AI、機械学習を通じた道のダンス表現への挑戦 という言葉がチラシに書いてあった。 正直ダンスというものをMV程度でしか見る機会がないのでコンテンポラリダンスはなにを表現したのかよくわからないという感想しか持てない。 ただ、今回のダンスはRhizomatiksが技術提供をし …">
+  <meta name="twitter:title" content="Hugo の build を Github Actions で実行するようにした" />
+  <meta name="twitter:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。 …">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@gennei" />
   <meta name="twitter:creator" content="@gennei" />
@@ -217,7 +212,7 @@ if (!doNotTrack) {
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>discrete figures を鑑賞した</h1>
+                <h1>Hugo の build を Github Actions で実行するようにした</h1>
               
               
               
@@ -225,7 +220,7 @@ if (!doNotTrack) {
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on September 1, 2018
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 2, 2020
   
   
   
@@ -252,18 +247,76 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><a href="https://rhizomatiks.com/s/event/discrete_figures/">discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald</a></p>
-<!-- raw HTML omitted -->
-<p><code>AI、機械学習を通じた道のダンス表現への挑戦</code> という言葉がチラシに書いてあった。
-正直ダンスというものをMV程度でしか見る機会がないのでコンテンポラリダンスはなにを表現したのかよくわからないという感想しか持てない。
-ただ、今回のダンスはRhizomatiksが技術提供をしているので技術的な部分ではとてもわくわくした。</p>
-<blockquote>
-<p>アラン・チューリングは「脳」を数学を用いることによって「身体」の外に対象化し、自分の「身体」の外に拡張することで、もう一人の自分を作り出した。他人から見ればもう一人の自分は身体とは切り離された存在だが、チューリングにとってその身体は他者ではなく身体そのものであり数学をすることで生み出された鏡である。</p>
-<p>―真鍋大度</p>
-</blockquote>
-<p>うーんわからない 🤔</p>
+        <p>今までこの blog を更新するときは、markdown で記事を書いて、その後 <code>$ hugo -t beautifulhugo</code> コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。</p>
+<h1 id="heading">手順</h1>
+<ol>
+<li>github actions の workflow を作成</li>
+<li>deploy key の作成</li>
+<li>動作確認</li>
+</ol>
+<h2 id="github-actions--workflow-">github actions の workflow を作成</h2>
+<p>ここを参考に作った。</p>
+<ul>
+<li><a href="https://github.com/peaceiris/actions-hugo#getting-started">https://github.com/peaceiris/actions-hugo#getting-started</a></li>
+<li><a href="https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264">https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264</a></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu<span style="color:#ae81ff">-18.04</span>
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: <span style="color:#66d9ef">true</span>
+    <span style="color:#75715e"># ここを true にしておくと git submodules のあるものもまとめて checkout してくれる</span>
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: <span style="color:#e6db74">&#39;0.62.1&#39;</span>
+
+    - name: Build
+      run: hugo -t beautifulhugo
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./docs
+</code></pre></div><p>hugo の 生成したファイルの出力先が <code>./docs</code> なので deploy するときの <code>PUBLISH_DIR</code> はこれに合わせている。<br>
+今回の GithubActions に合わせて <code>gh-pages</code> ブランチで運用するようにした。別ブランチにすることで master ブランチの変更の無限ループも回避できるので一石二鳥だった。</p>
+<h2 id="deploy-key-">deploy key の設定</h2>
+<p>GithubActions から github へ deploy するときはこちらを参考にした<br>
+<a href="https://github.com/peaceiris/actions-gh-pages#getting-started">https://github.com/peaceiris/actions-gh-pages#getting-started</a></p>
+<pre><code>$ ssh-keygen -t rsa -b 4096 -C &quot;$(git config user.email)&quot; -f gh-pages -N &quot;&quot;
+</code></pre><p>これで生成したものを github へ登録。これで GithubActions で build したものを <code>gh-pages</code> ブランチへ push することができるようになった。</p>
+<h2 id="heading-1">動作確認</h2>
+<p>このような記事を書いて master ブランチへ push した結果問題なく build して deploy できた。
+<img src="/static/img/github-actions-result.png" alt=""></p>
+<h1 id="heading-2">参考リンク</h1>
+<ul>
+<li><a href="https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264">新しくなったGitHub ActionsでHugoブログのデプロイをしてみた</a></li>
+<li><a href="https://github.com/peaceiris/actions-hugo">peaceiris/actions-hugo</a></li>
+</ul>
 
 
+        
+          <div class="blog-tags">
+            
+              <a href="https://blog.gennei.coffee//tags/github/">github</a>&nbsp;
+            
+              <a href="https://blog.gennei.coffee//tags/hugo/">hugo</a>&nbsp;
+            
+              <a href="https://blog.gennei.coffee//tags/githubactions/">GithubActions</a>&nbsp;
+            
+          </div>
         
 
         
@@ -275,13 +328,9 @@ if (!doNotTrack) {
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://blog.gennei.coffee/post/hibilife/" data-toggle="tooltip" data-placement="top" title="10 10MINUTES AROMA を買った">&larr; Previous Post</a>
+              <a href="https://blog.gennei.coffee/post/morisaki-twins-speak-mind/" data-toggle="tooltip" data-placement="top" title="『うつ白 ~そんな自分も好きになる~』を読んだ">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://blog.gennei.coffee/post/twitter-access-denied/" data-toggle="tooltip" data-placement="top" title="twitter をワンライナーで接続できないようにする">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

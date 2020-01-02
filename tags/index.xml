@@ -6,10 +6,37 @@
     <description>Recent content in Tags on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Dec 2019 21:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 21:37:37 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.gennei.coffee/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>github</title>
+      <link>https://blog.gennei.coffee/tags/github/</link>
+      <pubDate>Thu, 02 Jan 2020 21:37:37 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GithubActions</title>
+      <link>https://blog.gennei.coffee/tags/githubactions/</link>
+      <pubDate>Thu, 02 Jan 2020 21:37:37 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/tags/githubactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://blog.gennei.coffee/tags/hugo/</link>
+      <pubDate>Thu, 02 Jan 2020 21:37:37 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/tags/hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>うつ病</title>
@@ -183,15 +210,6 @@
     </item>
     
     <item>
-      <title>github</title>
-      <link>https://blog.gennei.coffee/tags/github/</link>
-      <pubDate>Mon, 09 Oct 2017 23:47:55 +0900</pubDate>
-      
-      <guid>https://blog.gennei.coffee/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>movie</title>
       <link>https://blog.gennei.coffee/tags/movie/</link>
       <pubDate>Tue, 19 Sep 2017 23:34:21 +0900</pubDate>
@@ -233,15 +251,6 @@
       <pubDate>Sat, 09 Sep 2017 12:01:29 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/tags/boardgame/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://blog.gennei.coffee/tags/hugo/</link>
-      <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
-      
-      <guid>https://blog.gennei.coffee/tags/hugo/</guid>
       <description></description>
     </item>
     

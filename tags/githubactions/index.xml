@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GithubActions on gennei&#39;s blog</title>
+    <link>https://blog.gennei.coffee/tags/githubactions/</link>
+    <description>Recent content in GithubActions on gennei&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 02 Jan 2020 21:37:37 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.gennei.coffee/tags/githubactions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo の build を Github Actions で実行するようにした</title>
+      <link>https://blog.gennei.coffee/post/github-actions-for-hugo/</link>
+      <pubDate>Thu, 02 Jan 2020 21:37:37 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/github-actions-for-hugo/</guid>
+      <description>今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
+手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
+ https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &amp;#39;0.</description>
+    </item>
+    
+  </channel>
+</rss>

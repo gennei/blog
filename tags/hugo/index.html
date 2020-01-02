@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Overview of all pages with the tag #hugo - gennei&#39;s blog</title>
-  <meta name="description" content="Overview of all pages with the tag #hugo, such as: Hugo &#43; github-pages でブログを作った">
+  <meta name="description" content="Overview of all pages with the tag #hugo, such as: Hugo の build を Github Actions で実行するようにした">
   <meta name="author" content="gennei"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -181,6 +181,55 @@ if (!doNotTrack) {
         <div class="posts-list">
           
             <article class="post-preview">
+    <a href="https://blog.gennei.coffee/post/github-actions-for-hugo/">
+        <h2 class="post-title">Hugo の build を Github Actions で実行するようにした</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 2, 2020
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;gennei
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
+手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
+ https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;0.
+        <a href="https://blog.gennei.coffee/post/github-actions-for-hugo/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://blog.gennei.coffee//tags/github/">github</a>&nbsp;
+        
+        <a href="https://blog.gennei.coffee//tags/hugo/">hugo</a>&nbsp;
+        
+        <a href="https://blog.gennei.coffee//tags/githubactions/">GithubActions</a>&nbsp;
+        
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://blog.gennei.coffee/post/hubo-new-post/">
         <h2 class="post-title">Hugo &#43; github-pages でブログを作った</h2>
         
@@ -291,7 +340,7 @@ publishDir = &#34;docs&#34; としておくと ./docs に出力してくれる�
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2019
+            2020
           
 
           
