@@ -70,7 +70,7 @@ $ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 ## 動作確認
 
 このような記事を書いて master ブランチへ push した結果問題なく build して deploy できた。
-![](/static/img/github-actions-result.png)
+![](/img/github-actions-result.png)
 
 # 参考リンク
 - [新しくなったGitHub ActionsでHugoブログのデプロイをしてみた](https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264)
