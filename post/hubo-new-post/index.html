@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Hugo &#43; github-pages でブログを作った - gennei&#39;s blog</title>
+  <meta name="description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
+公開用のディレクトリを変更する config.toml の設定を書き換える。
+publishDir = &#34;docs&#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。">
+  <meta name="author" content="gennei"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "gennei\x27s blog",
+    
+    "url": "https:\/\/blog.gennei.coffee\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/blog.gennei.coffee\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/blog.gennei.coffee\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/blog.gennei.coffee\/post\/hubo-new-post\/",
+          "name": "Hugo \x2b github pages でブログを作った"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "gennei"
+  },
+  "headline": "Hugo \x2b github-pages でブログを作った",
+  "description" : "はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。\nそこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。\n導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。\nテーマをダウンロード $ cd .\/themes $ git clone https:\/\/github.com\/halogenica\/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post\/entry-title これで content\/post\/entry-title.md という記事ができあがる。\n手元で確認する $ hugo server -t beautifulhugo -D -w これで http:\/\/localhost:1313\/ 確認できる。\n公開用のHTMLを作成する $ hugo -t beautifulhugo これで .\/public に 公開用のHTMLが作成される。\n公開用のディレクトリを変更する config.toml の設定を書き換える。\npublishDir = \x26#34;docs\x26#34; としておくと .\/docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。",
+  "inLanguage" : "en",
+  "wordCount":  72 ,
+  "datePublished" : "2017-09-03T15:05:48",
+  "dateModified" : "2017-09-03T15:05:48",
+  "image" : "https:\/\/blog.gennei.coffee\/",
+  "keywords" : [ "hugo, blog, github" ],
+  "mainEntityOfPage" : "https:\/\/blog.gennei.coffee\/post\/hubo-new-post\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/blog.gennei.coffee\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/blog.gennei.coffee\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Hugo &#43; github-pages でブログを作った" />
+<meta property="og:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
+テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
+手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
+公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
+公開用のディレクトリを変更する config.toml の設定を書き換える。
+publishDir = &#34;docs&#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。">
+<meta property="og:url" content="https://blog.gennei.coffee/post/hubo-new-post/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="gennei&#39;s blog" />
+
+  <meta name="twitter:title" content="Hugo &#43; github-pages でブログを作った" />
+  <meta name="twitter:description" content="はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
+導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site …">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@gennei" />
+  <meta name="twitter:creator" content="@gennei" />
+  <meta name="generator" content="Hugo 0.62.1" />
+  <link rel="alternate" href="https://blog.gennei.coffee/index.xml" type="application/rss+xml" title="gennei&#39;s blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://blog.gennei.coffee/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://blog.gennei.coffee/css/syntax.css" /><link rel="stylesheet" href="https://blog.gennei.coffee/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-106312693-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://blog.gennei.coffee/">gennei&#39;s blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Hugo &#43; github-pages でブログを作った</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on September 3, 2017
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;gennei
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。<br>
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやら<a href="https://awe-some.net/2017/01/statatic-site-generator/">いくつかの方法</a>があるようだが、hugo の評判がいいので hugo を採用した。</p>
+<h2 id="heading">導入ログ</h2>
+<h3 id="hugo-">hugo をインストール</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew install hugo
+</code></pre></div><h3 id="blog-">blog を作る</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo new site blog
+</code></pre></div><p>これだけで作れたのでとても楽だった。</p>
+<h3 id="heading-1">テーマをダウンロード</h3>
+<pre><code>$ cd ./themes
+$ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
+</code></pre><h3 id="heading-2">エントリを書く</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hugo new post/entry-title
+</code></pre></div><p>これで <code>content/post/entry-title.md</code> という記事ができあがる。</p>
+<h3 id="heading-3">手元で確認する</h3>
+<pre><code>$ hugo server -t beautifulhugo -D -w
+</code></pre><p>これで <code>http://localhost:1313/</code> 確認できる。</p>
+<h3 id="html">公開用のHTMLを作成する</h3>
+<pre><code>$ hugo -t beautifulhugo
+</code></pre><p>これで <code>./public</code> に 公開用のHTMLが作成される。</p>
+<h3 id="heading-4">公開用のディレクトリを変更する</h3>
+<p><code>config.toml</code> の設定を書き換える。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">publishDir</span> = <span style="color:#e6db74">&#34;docs&#34;</span>
+</code></pre></div><p>としておくと <code>./docs</code> に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</p>
+<p>簡単だ。</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://blog.gennei.coffee//tags/hugo/">hugo</a>&nbsp;
+            
+              <a href="https://blog.gennei.coffee//tags/blog/">blog</a>&nbsp;
+            
+              <a href="https://blog.gennei.coffee//tags/github/">github</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+            <li class="next">
+              <a href="https://blog.gennei.coffee/post/board-game/" data-toggle="tooltip" data-placement="top" title="ボードゲームをやった">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/gennei" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/gennei" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gennei" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              gennei
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://blog.gennei.coffee/">gennei&#39;s blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.62.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://blog.gennei.coffee/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://blog.gennei.coffee/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
