@@ -4,7 +4,27 @@
   
   <url>
     <loc>https://blog.gennei.coffee/</loc>
-    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
+    <lastmod>2020-04-19T08:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/</loc>
+    <lastmod>2020-04-19T08:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/qol/</loc>
+    <lastmod>2020-04-19T08:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/tags/</loc>
+    <lastmod>2020-04-19T08:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.gennei.coffee/post/labelless-plastic-bottle/</loc>
+    <lastmod>2020-04-19T08:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +44,6 @@
   
   <url>
     <loc>https://blog.gennei.coffee/post/github-actions-for-hugo/</loc>
-    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.gennei.coffee/post/</loc>
-    <lastmod>2020-01-02T21:37:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.gennei.coffee/tags/</loc>
     <lastmod>2020-01-02T21:37:37+09:00</lastmod>
   </url>
   

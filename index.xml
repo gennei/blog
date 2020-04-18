@@ -6,10 +6,25 @@
     <description>Recent content on gennei&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:37:37 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 08:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.gennei.coffee/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ラベルのついていないペットボトルを買ってみたら最高だった</title>
+      <link>https://blog.gennei.coffee/post/labelless-plastic-bottle/</link>
+      <pubDate>Sun, 19 Apr 2020 08:00:00 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/labelless-plastic-bottle/</guid>
+      <description>最近ニュースでこんなものを見た
+完全ラベルレスの「アサヒおいしい水」発売、リサイクルマーク直接刻印でタックシールも削減
+ アサヒ飲料は、2018年から商品にラベルをつけないラベルレス商品を展開しているが、今回リニューアルする商品は、経済産業省の“資源有効利用促進法”に基づく識別表示に関する制度変更に伴い、タックシールも外してボトルに直接リサイクルマークを刻印することにより、完全ラベルレス化を実現した。アサヒ飲料では、ラベルやタックシールを貼付しないことにより、年間で約7トンの樹脂量の削減を見込むとする。
+ MS+B ウィルキンソン 炭酸水 ラベルレスボトル 500ml ×24本 [Amazon限定ブランド]
+自宅ではいつも炭酸水を飲んでいるので、ラベルレスのものを買ってみた。
+今住んでいる地域だとペットボトルの蓋とラベルを分別しないといけなかったのだが、今回ラベルを捨てる手間が省かれとても快適になった。
+通販はヨドバシカメラを使用することが多いのでヨドバシカメラで取り扱ってほしい…。</description>
+    </item>
     
     <item>
       <title>Hugo の build を Github Actions で実行するようにした</title>
