@@ -13,3 +13,6 @@ theme = "beautifulHugo"
   github = "gennei"
   twitter = "gennei"
   instagram = "gennei"
+
+[markup.goldmark.renderer]
+  unsafe = true
