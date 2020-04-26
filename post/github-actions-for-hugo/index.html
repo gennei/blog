@@ -8,9 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Hugo の build を Github Actions で実行するようにした - gennei&#39;s blog</title>
-  <meta name="description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
-手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
- https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;0.">
+  <meta name="description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。">
   <meta name="author" content="gennei"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -59,7 +57,7 @@
     "name" : "gennei"
   },
   "headline": "Hugo の build を Github Actions で実行するようにした",
-  "description" : "今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。\n手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。\n https:\/\/github.com\/peaceiris\/actions-hugo#getting-started https:\/\/qiita.com\/kaakaa_hoe\/items\/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions\/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris\/actions-hugo@v2 with: hugo-version: \x26#39;0.",
+  "description" : "今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。\n",
   "inLanguage" : "en",
   "wordCount":  162 ,
   "datePublished" : "2020-01-02T21:37:37",
@@ -81,15 +79,13 @@
 </script>
 
 <meta property="og:title" content="Hugo の build を Github Actions で実行するようにした" />
-<meta property="og:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
-手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
- https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;0.">
+<meta property="og:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。">
 <meta property="og:url" content="https://blog.gennei.coffee/post/github-actions-for-hugo/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="gennei&#39;s blog" />
 
   <meta name="twitter:title" content="Hugo の build を Github Actions で実行するようにした" />
-  <meta name="twitter:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。 …">
+  <meta name="twitter:description" content="今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@gennei" />
   <meta name="twitter:creator" content="@gennei" />
@@ -305,7 +301,6 @@ jobs:
 <li><a href="https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264">新しくなったGitHub ActionsでHugoブログのデプロイをしてみた</a></li>
 <li><a href="https://github.com/peaceiris/actions-hugo">peaceiris/actions-hugo</a></li>
 </ul>
-
 
         
           <div class="blog-tags">

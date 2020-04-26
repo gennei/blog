@@ -17,10 +17,8 @@
       <pubDate>Sun, 28 Jan 2018 23:49:22 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/post/gennei-coffee-domain/</guid>
-      <description>gennei.coffee ドメインを取得した。前から気になっていた .coffee ドメイン。 取得したはいいが使い道がないので、github pages で公開しているこのブログに当てた。
-その結果、https 対応しないといけなくなり手間が増えた。検索すると cloudflare の無料プランで https対応ができるとのこと。 導入してみたら問題なく https になった。
-ドメイン取得からDNSの設定、https対応の勉強だと思えば安かったのかな。
-関連サイト  rcmdnk.com: 独自ドメインになりました CloudflareでGitHub PagesをHTTPS化  </description>
+      <description>&lt;p&gt;gennei.coffee ドメインを取得した。前から気になっていた .coffee ドメイン。
+取得したはいいが使い道がないので、github pages で公開しているこのブログに当てた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,14 +27,8 @@
       <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/post/hubo-new-post/</guid>
-      <description>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
-そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
-公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &amp;#34;docs&amp;#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</description>
+      <description>&lt;p&gt;はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。&lt;br&gt;
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやら&lt;a href=&#34;https://awe-some.net/2017/01/statatic-site-generator/&#34;&gt;いくつかの方法&lt;/a&gt;があるようだが、hugo の評判がいいので hugo を採用した。&lt;/p&gt;</description>
     </item>
     
   </channel>

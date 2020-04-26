@@ -17,10 +17,8 @@
       <pubDate>Sun, 28 Jan 2018 23:49:22 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/post/gennei-coffee-domain/</guid>
-      <description>gennei.coffee ドメインを取得した。前から気になっていた .coffee ドメイン。 取得したはいいが使い道がないので、github pages で公開しているこのブログに当てた。
-その結果、https 対応しないといけなくなり手間が増えた。検索すると cloudflare の無料プランで https対応ができるとのこと。 導入してみたら問題なく https になった。
-ドメイン取得からDNSの設定、https対応の勉強だと思えば安かったのかな。
-関連サイト  rcmdnk.com: 独自ドメインになりました CloudflareでGitHub PagesをHTTPS化  </description>
+      <description>&lt;p&gt;gennei.coffee ドメインを取得した。前から気になっていた .coffee ドメイン。
+取得したはいいが使い道がないので、github pages で公開しているこのブログに当てた。&lt;/p&gt;</description>
     </item>
     
   </channel>

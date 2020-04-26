@@ -17,9 +17,7 @@
       <pubDate>Thu, 02 Jan 2020 21:37:37 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/post/github-actions-for-hugo/</guid>
-      <description>今までこの blog を更新するときは、markdown で記事を書いて、その後 $ hugo -t beautifulhugo コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
-手順  github actions の workflow を作成 deploy key の作成 動作確認  github actions の workflow を作成 ここを参考に作った。
- https://github.com/peaceiris/actions-hugo#getting-started https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264  name: github pages on: push: branches: - master jobs: build-deploy: runs-on: ubuntu-18.04 steps: - uses: actions/checkout@v1 with: submodules: true # ここを true にしておくと git submodules のあるものもまとめて checkout してくれる - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &amp;#39;0.</description>
+      <description>&lt;p&gt;今までこの blog を更新するときは、markdown で記事を書いて、その後 &lt;code&gt;$ hugo -t beautifulhugo&lt;/code&gt; コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,14 +26,8 @@
       <pubDate>Sun, 03 Sep 2017 15:05:48 +0900</pubDate>
       
       <guid>https://blog.gennei.coffee/post/hubo-new-post/</guid>
-      <description>はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。
-そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやらいくつかの方法があるようだが、hugo の評判がいいので hugo を採用した。
-導入ログ hugo をインストール $ brew install hugo blog を作る $ hugo new site blog これだけで作れたのでとても楽だった。
-テーマをダウンロード $ cd ./themes $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo エントリを書く $ hugo new post/entry-title これで content/post/entry-title.md という記事ができあがる。
-手元で確認する $ hugo server -t beautifulhugo -D -w これで http://localhost:1313/ 確認できる。
-公開用のHTMLを作成する $ hugo -t beautifulhugo これで ./public に 公開用のHTMLが作成される。
-公開用のディレクトリを変更する config.toml の設定を書き換える。
-publishDir = &amp;#34;docs&amp;#34; としておくと ./docs に出力してくれる。こうしておけば github-pages のディレクトリと一致するので github.io で公開できる。</description>
+      <description>&lt;p&gt;はてなブログを使っていたが、読み込みが遅い、web で編集をするのがめんどうという理由でブログを更新しなくなった。&lt;br&gt;
+そこでローカルで編集ができて、Markdownで書ける方法を探した。どうやら&lt;a href=&#34;https://awe-some.net/2017/01/statatic-site-generator/&#34;&gt;いくつかの方法&lt;/a&gt;があるようだが、hugo の評判がいいので hugo を採用した。&lt;/p&gt;</description>
     </item>
     
   </channel>
