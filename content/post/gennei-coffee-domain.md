@@ -8,6 +8,8 @@ tags: ["coffee", "blog", "tech"]
 gennei.coffee ドメインを取得した。前から気になっていた .coffee ドメイン。
 取得したはいいが使い道がないので、github pages で公開しているこのブログに当てた。
 
+<!--more-->
+
 その結果、https 対応しないといけなくなり手間が増えた。検索すると cloudflare の無料プランで https対応ができるとのこと。
 導入してみたら問題なく https になった。
 

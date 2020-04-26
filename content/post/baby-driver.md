@@ -7,6 +7,8 @@ tags: ["movie", "music"]
 
 映画『[BABY DRIVER](http://www.babydriver.jp/)』 を見た。
 
+<!--more-->
+
 **あらすじ**
 
 >

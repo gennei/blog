@@ -7,6 +7,7 @@ tags: ["podcast", "しがないラジオ"]
 
 この記事は [#しがないラジオ 2 Advent Calendar 2018](https://adventar.org/calendars/3012) の13日目の記事です。
 
+<!--more-->
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%81%97%E3%81%8C%E3%81%AA%E3%81%84%E3%83%A9%E3%82%B8%E3%82%AA?src=hash&amp;ref_src=twsrc%5Etfw">#しがないラジオ</a> アドベントカレンダーないのかな。</p>&mdash; げんえい🤔 (@gennei) <a href="https://twitter.com/gennei/status/925990876446302208?ref_src=twsrc%5Etfw">2017年11月2日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
