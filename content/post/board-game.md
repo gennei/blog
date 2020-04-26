@@ -10,6 +10,8 @@ http://jellyjellycafe.com/shoplist/ikebukuro
 
 友達4人と下記のゲームで遊んだ。
 
+<!--more-->
+
 ### 遊んだゲーム知覧
 - [ドメモ](http://sgrk.blog53.fc2.com/?no=1096)
 - [ハゲタカのえじき](http://sgrk.blog53.fc2.com/?no=90)

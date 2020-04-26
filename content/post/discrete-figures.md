@@ -7,7 +7,7 @@ tags: []
 
 [discrete figures -ELEVENPLAY×Rhizomatiks Research×Kyle McDonald](https://rhizomatiks.com/s/event/discrete_figures/)
 
-
+<!--more-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s_S3fomiXO0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
