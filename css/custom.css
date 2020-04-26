@@ -1,0 +1,8 @@
+.nested-img img {
+    width: auto;
+    display: inline;
+}
+
+h1.lh-title {
+    font-weight: bold;
+}
