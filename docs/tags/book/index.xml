@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book on gennei&#39;s blog</title>
+    <link>https://blog.gennei.coffee/tags/book/</link>
+    <description>Recent content in book on gennei&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 08 Jul 2019 22:57:57 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.gennei.coffee/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019年上半期面白かった本3冊</title>
+      <link>https://blog.gennei.coffee/post/2019-kamihanki-book/</link>
+      <pubDate>Mon, 08 Jul 2019 22:57:57 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/2019-kamihanki-book/</guid>
+      <description>&lt;p&gt;普段上半期という単位で振り返ることはやらないが、試しにやってみる。
+上半期はコミック合わせて178冊読んだらしい。読んで面白かった本を3冊ほど紹介してみる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>『21世紀のブランドを創る 「星乃珈琲店」誕生物語』を読んだ</title>
+      <link>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/birth-of-hoshino-coffee/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4478029679?tag=gennei-22&#34;&gt;『21世紀のブランドを創る「星乃珈琲店」誕生物語』&lt;/a&gt;を読んだ&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>『スクリプトドクターのプレゼンテーション術』を読んだ</title>
+      <link>https://blog.gennei.coffee/post/presentation-doctor/</link>
+      <pubDate>Fri, 03 Nov 2017 21:34:06 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/presentation-doctor/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4905158486?tag=gennei-22&#34;&gt;『スクリプトドクターのプレゼンテーション術』&lt;/a&gt;を読んだ&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>『わかばちゃんと学ぶGit使い方入門』を読んだ</title>
+      <link>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</link>
+      <pubDate>Mon, 09 Oct 2017 23:47:55 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</guid>
+      <description>&lt;p&gt;最近エンジニアではない職種の方にGitの使い方を教える機会が何度かあった。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
