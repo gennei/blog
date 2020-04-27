@@ -1,6 +1,6 @@
 ---
 title: "PHPを静的サイトジェネレータとして使う"
-date: 2020-04-25T21:00:00+09:00
+date: 2020-04-27T22:00:00+09:00
 draft: false
 tags: ["php", "github-actions", "CI", "CD"]
 ---
