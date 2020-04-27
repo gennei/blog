@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on gennei&#39;s blog</title>
+    <link>https://blog.gennei.coffee/tags/git/</link>
+    <description>Recent content in git on gennei&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 09 Oct 2017 23:47:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.gennei.coffee/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『わかばちゃんと学ぶGit使い方入門』を読んだ</title>
+      <link>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</link>
+      <pubDate>Mon, 09 Oct 2017 23:47:55 +0900</pubDate>
+      
+      <guid>https://blog.gennei.coffee/post/learn-git-wtih-wakaba/</guid>
+      <description>&lt;p&gt;最近エンジニアではない職種の方にGitの使い方を教える機会が何度かあった。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

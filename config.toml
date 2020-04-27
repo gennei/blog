@@ -3,16 +3,16 @@ languageCode = "ja"
 title = "gennei's blog"
 publishDir = "docs"
 googleAnalytics = "UA-106312693-1"
-theme = "beautifulHugo"
+theme = "ananke"
 
-[Params]
+[params]
   rss = true
-
-[Author]
   name = "gennei"
   github = "gennei"
   twitter = "gennei"
   instagram = "gennei"
+  custom_css = ["css/custom.css"]
+  recent_posts_number = 5
 
 [markup.goldmark.renderer]
   unsafe = true

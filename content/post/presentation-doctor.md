@@ -7,6 +7,8 @@ tags: ["book", "presentation", "doctor"]
 
 [『スクリプトドクターのプレゼンテーション術』](https://www.amazon.co.jp/dp/4905158486?tag=gennei-22)を読んだ
 
+<!--more-->
+
 ### 内容紹介
 ```
 マーケティングや資料作りの話はいっさいナシ。

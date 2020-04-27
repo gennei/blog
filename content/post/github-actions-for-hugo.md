@@ -7,6 +7,8 @@ tags: ["github", "hugo", "GithubActions"]
 
 今までこの blog を更新するときは、markdown で記事を書いて、その後 `$ hugo -t beautifulhugo` コマンドで生成した記事を github へ push していた。この build flow をどこかのタイミングで CircleCI などで実行するようにしようと思っていた。昨年 Github Actions が公開され気になっていたので暇な時間で作業してみた。
 
+<!--more-->
+
 # 手順
 1. github actions の workflow を作成
 1. deploy key の作成
