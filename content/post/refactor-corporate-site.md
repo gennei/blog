@@ -49,7 +49,7 @@ tags: ["php", "github-actions", "CI", "CD"]
 ## CI/CD フロー
 
 1. master branch の更新をフックに GithubActions が実行
-1. PHP実行して html フィアル生成
+1. PHP実行して html ファイル生成
 1. 生成したファイルを Firebase Hosting へアップロード
 
 ## 結果
