@@ -8,9 +8,9 @@ theme = "ananke"
 [params]
   rss = true
   name = "gennei"
-  github = "gennei"
-  twitter = "gennei"
-  instagram = "gennei"
+  github = "https://github.com/gennei"
+  twitter = "https://twitter.com/gennei"
+  instagram = "https://www.instagram.com/gennei"
   custom_css = ["css/custom.css"]
   recent_posts_number = 5
 
