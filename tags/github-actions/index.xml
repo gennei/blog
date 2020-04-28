@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>github-actions on gennei's blog</title><link>https://blog.gennei.coffee/tags/github-actions/</link><description>Recent content in github-actions on gennei's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 28 Apr 2020 11:40:00 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/github-actions/index.xml" rel="self" type="application/rss+xml"/><item><title>PHPを静的サイトジェネレータとして使う</title><link>https://blog.gennei.coffee/post/refactor-corporate-site/</link><pubDate>Tue, 28 Apr 2020 11:40:00 +0900</pubDate><guid>https://blog.gennei.coffee/post/refactor-corporate-site/</guid><description>&lt;h2 id="tldr">tl;dr&lt;/h2>
+&lt;ul>
+&lt;li>Static Site Generater を使わなくても PHP だけでも簡単なものは作れるぞ&lt;/li>
+&lt;li>ツールのインストールしなくても Linux だとデフォルトで入っていることが多いのでツールのインストールがいらない&lt;/li>
+&lt;li>PHPはテンプレートエンジンです&lt;/li>
+&lt;/ul></description></item></channel></rss>
