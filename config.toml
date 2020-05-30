@@ -3,16 +3,28 @@ languageCode = "ja"
 title = "gennei's blog"
 publishDir = "docs"
 googleAnalytics = "UA-106312693-1"
-theme = "ananke"
+theme = "noteworthy"
+summaryLength = 4
+
+[author]
+	name = "gennei"
+
+[taxonomies]
+  tag = "tags"
+
+[[menu.main]]
+	identifier = "tags"
+	name = "Tags"
+	url = "/tags/"
+	weight = 1
 
 [params]
   rss = true
   name = "gennei"
+  showReadMore = true
   github = "https://github.com/gennei"
   twitter = "https://twitter.com/gennei"
   instagram = "https://www.instagram.com/gennei"
-  custom_css = ["css/custom.css"]
-  recent_posts_number = 5
 
 [markup.goldmark.renderer]
   unsafe = true
