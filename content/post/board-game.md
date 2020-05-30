@@ -12,7 +12,7 @@ http://jellyjellycafe.com/shoplist/ikebukuro
 
 <!--more-->
 
-### 遊んだゲーム知覧
+#### 遊んだゲーム知覧
 - [ドメモ](http://sgrk.blog53.fc2.com/?no=1096)
 - [ハゲタカのえじき](http://sgrk.blog53.fc2.com/?no=90)
 - [犯人は踊る](http://sgrk.blog53.fc2.com/blog-entry-2776.html)

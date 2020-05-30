@@ -10,42 +10,42 @@ tags: ["hugo", "blog", "github"]
 
 <!--more-->
 
-## 導入ログ
+### 導入ログ
 
-### hugo をインストール
+#### hugo をインストール
 
 ```sh
 $ brew install hugo
 ```
 
-### blog を作る
+#### blog を作る
 
 ```sh
 $ hugo new site blog
 ```
 これだけで作れたのでとても楽だった。
 
-### テーマをダウンロード
+#### テーマをダウンロード
 ```
 $ cd ./themes
 $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 ```
 
-### エントリを書く
+#### エントリを書く
 ```sh
 $ hugo new post/entry-title
 ```
 
 これで `content/post/entry-title.md` という記事ができあがる。
 
-### 手元で確認する
+#### 手元で確認する
 ```
 $ hugo server -t beautifulhugo -D -w
 ```
 
 これで `http://localhost:1313/` 確認できる。
 
-### 公開用のHTMLを作成する
+#### 公開用のHTMLを作成する
 
 ```
 $ hugo -t beautifulhugo
@@ -53,7 +53,7 @@ $ hugo -t beautifulhugo
 
 これで `./public` に 公開用のHTMLが作成される。
 
-### 公開用のディレクトリを変更する
+#### 公開用のディレクトリを変更する
 `config.toml` の設定を書き換える。
 ```toml
 publishDir = "docs"

@@ -7,7 +7,7 @@ tags: ["movie"]
 
 <!--more-->
 
-### あらすじ
+#### あらすじ
 >生き抜け。  
 海の町ダンケルクに追い詰められた英仏軍40万人。  
 若き兵士トミーは絶体絶命の地から脱出できるのか？  
@@ -16,10 +16,10 @@ tags: ["movie"]
 
 [公式サイトより](http://wwws.warnerbros.co.jp/dunkirk/)
 
-### 予告
+#### 予告
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SIWGVzRbxsw?rel=0" frameborder="0" allowfullscreen></iframe>
 
-### 感想
+#### 感想
 
 T・ジョイPRINCE品川で IMAX 2Dで鑑賞。  
 ほとんど前知識なしで見たけれども話は難しくなく、むしろわかりやすかった。話は海岸に追い詰められてそこから撤退するということだけ。  
@@ -35,6 +35,6 @@ T・ジョイPRINCE品川で IMAX 2Dで鑑賞。
 
 この映画は大きなスクリーンで觀るための映画なのでIMAXで観れるうちに觀るべき映画であった。
 
-### 関連リンク
+#### 関連リンク
 - [公式サイト](http://wwws.warnerbros.co.jp/dunkirk/)
 - [ダンケルク - 映画情報・レビュー・評価・あらすじ | Filmarks](https://filmarks.com/movies/66158)

@@ -7,10 +7,10 @@ tags: ["coffee"]
 
 この記事は [コーヒー Advent Calendar 2018](https://adventar.org/calendars/3204) の 6日目の記事です
 
-# カフェと日本人
+## カフェと日本人
 <div class="booklog_html"><table><tr><td class="booklog_html_image"><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/top.gif) no-repeat right;width:200px;height:25px;"></div><table cellpadding="0" cellspacing="0" border="0" width="200"><tr><td background="https://booklog.jp/common/buildhtml/wood/images/main.gif" height="160" style="vertical-align:bottom;text-align:center;line-height:0;"><a href="https://www.amazon.co.jp/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%A8%E6%97%A5%E6%9C%AC%E4%BA%BA-%E8%AC%9B%E8%AB%87%E7%A4%BE%E7%8F%BE%E4%BB%A3%E6%96%B0%E6%9B%B8-%E9%AB%98%E4%BA%95-%E5%B0%9A%E4%B9%8B/dp/4062882876?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062882876" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/31WeNVyzJhL._SL160_.jpg" width="91" height="150" style="border:0;border-radius:0;" /></a></td></tr></table><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/bottom.gif) no-repeat;width:200px;height:15px;"></div></td><td class="booklog_html_info" style="padding-left:20px;"><div class="booklog_html_title" style="margin-bottom:10px;font-size:14px;font-weight:bold;"><a href="https://www.amazon.co.jp/%E3%82%AB%E3%83%95%E3%82%A7%E3%81%A8%E6%97%A5%E6%9C%AC%E4%BA%BA-%E8%AC%9B%E8%AB%87%E7%A4%BE%E7%8F%BE%E4%BB%A3%E6%96%B0%E6%9B%B8-%E9%AB%98%E4%BA%95-%E5%B0%9A%E4%B9%8B/dp/4062882876?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062882876" target="_blank">カフェと日本人 (講談社現代新書)</a></div><div style="margin-bottom:10px;"><div class="booklog_html_author" style="margin-bottom:15px;font-size:12px;line-height:1.2em">著者 : <a href="https://booklog.jp/author/%E9%AB%98%E4%BA%95%E5%B0%9A%E4%B9%8B" target="_blank">高井尚之</a></div><div class="booklog_html_manufacturer" style="margin-bottom:5px;font-size:12px;line-height:1.2em">講談社</div><div class="booklog_html_release" style="font-size:12px;line-height:1.2em">発売日 : 2014-10-17</div></div><div class="booklog_html_link_amazon"><a href="https://booklog.jp/item/1/4062882876" style="font-size:12px;" target="_blank">ブクログでレビューを見る»</a></div></td></tr></table></div>
 
-## 内容紹介
+### 内容紹介
 
 ```
 大正・昭和の「カフェー」とＡＫＢ48の類似点って？
@@ -38,7 +38,7 @@ tags: ["coffee"]
 ```
 [from openBD](https://api.openbd.jp/v1/get?isbn=9784062882873)
 
-## 一言コメント
+### 一言コメント
 日本における喫茶店の歴史から最近のサードウェーブまでの変遷をまとめた本。  
 現代において街を歩けば、スターバックスコーヒー、ドトール、タリーズなどコーヒーショップはたくさんある。そしてこの5年でサードウェーブコーヒーと言われる流行の波にのってブルーボトルコーヒーが日本にやってきた。しかしこのブルーボトルコーヒーは日本の喫茶店文化にとても影響を受けている。ブルーボトルコーヒーの創業者、James Freeman は来日したときに日本の喫茶店を訪れている。そこで見た1杯づつ丁寧にドリップする光景を目にして自分のショップに取り入れた。  
 ではこの日本の喫茶店文化とはどのようなものなのか、それを掘り下げるためにはこの本はちょうどよい。日本の喫茶店文化を理解することで昨今のコーヒーブームの理解が深まるだろう。
