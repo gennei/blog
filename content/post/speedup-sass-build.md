@@ -10,6 +10,8 @@ tags: ["Sass", "Compass", "LibSass"]
 - Ruby 製の Compass をやめて LibSass の変更
 - 結果、**160秒** かかっていたのが **10秒** になった
 
+<!--more-->
+
 # 背景
 仕事で Ruby製の Compass を使って scss を css に変換していた。ただ、Ruby製の Compass は遅いとのことが以前から言われた。またすでにメンテナンスされていないため使うのをやめたいと思っていた。
 置き換えるには [LibSass](https://github.com/sass/libsass) が主流になっておりこちらに移行しようとした。
