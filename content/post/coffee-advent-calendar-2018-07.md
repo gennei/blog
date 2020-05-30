@@ -9,11 +9,11 @@ tags: ["coffee"]
 
 前日は日本の喫茶店の本を紹介した。純喫茶に関連する本を紹介する。
 
-## クリームソーダ 純喫茶めぐり
+### クリームソーダ 純喫茶めぐり
 
 <div class="booklog_html"><table><tr><td class="booklog_html_image"><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/top.gif) no-repeat right;width:200px;height:25px;"></div><table cellpadding="0" cellspacing="0" border="0" width="200"><tr><td background="https://booklog.jp/common/buildhtml/wood/images/main.gif" height="160" style="vertical-align:bottom;text-align:center;line-height:0;"><a href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%BD%E3%83%BC%E3%83%80-%E7%B4%94%E5%96%AB%E8%8C%B6%E3%82%81%E3%81%90%E3%82%8A-%E9%9B%A3%E6%B3%A2-%E9%87%8C%E5%A5%88/dp/4766131479?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4766131479" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Dks4gdLZL._SL160_.jpg" width="99" height="150" style="border:0;border-radius:0;" /></a></td></tr></table><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/bottom.gif) no-repeat;width:200px;height:15px;"></div></td><td class="booklog_html_info" style="padding-left:20px;"><div class="booklog_html_title" style="margin-bottom:10px;font-size:14px;font-weight:bold;"><a href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%BD%E3%83%BC%E3%83%80-%E7%B4%94%E5%96%AB%E8%8C%B6%E3%82%81%E3%81%90%E3%82%8A-%E9%9B%A3%E6%B3%A2-%E9%87%8C%E5%A5%88/dp/4766131479?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4766131479" target="_blank">クリームソーダ 純喫茶めぐり</a></div><div style="margin-bottom:10px;"><div class="booklog_html_author" style="margin-bottom:15px;font-size:12px;line-height:1.2em">著者 : <a href="https://booklog.jp/author/%E9%9B%A3%E6%B3%A2%E9%87%8C%E5%A5%88" target="_blank">難波里奈</a></div><div class="booklog_html_manufacturer" style="margin-bottom:5px;font-size:12px;line-height:1.2em">グラフィック社</div><div class="booklog_html_release" style="font-size:12px;line-height:1.2em">発売日 : 2018-08-08</div></div><div class="booklog_html_link_amazon"><a href="https://booklog.jp/item/1/4766131479" style="font-size:12px;" target="_blank">ブクログでレビューを見る»</a></div></td></tr></table></div>
 
-## 内容紹介
+### 内容紹介
 ```
 戦後〜昭和30,40年代の高度成長期に開業した歴史ある純喫茶の定番メニュー「クリームソーダ」を新規に取材、撮りおろし写真で紹介する。内装などクリームソーダ以外の見どころや、マスターの「なつかしエピソード」も。
 ```
@@ -21,7 +21,7 @@ tags: ["coffee"]
 [from グラフィック社](http://www.graphicsha.co.jp/detail.html?p=37857)
 
 
-## 一言コメント
+### 一言コメント
 
 今回の本はコーヒーとは関係のない本ではあるが喫茶店とはとても馴染み深い本。メロンがはいっているわけでもないのにメロンソーダと呼ばれる不思議な飲み物。すごくおいしいと言われるかと、そうでもない。ただ魅力的である飲み物。  
 この本は全国各地の喫茶店のメロンソーダの写真集。夏に読んでいたときは読むだけで涼しくなる。お店によって作り方が様々であり、また各お店の器もそれぞれ違う。この本を読むと純喫茶をまわってメロンソーダが飲みたくなる。

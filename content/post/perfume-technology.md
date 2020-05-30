@@ -13,7 +13,7 @@ tags: ["perfume", "technology", "rhizomatiks", "art"]
 
 ---
 
-## 感想
+### 感想
 perfume × rhizomatiks は SXSW を見てから追いかけている。ライブDVDを買ったり、ドキュメンタリーの映画を見たりして perfume の作品を造っている人たちがなにを考えながら演出をしているのか調べていた。なので今回のイベントはなにがなんでも行きたいと思っていた。10時開始のチケット販売に張り付いてたまたまチケットが抑えれたのでラッキーだった。  
 
 始まる前はただの壁だと思っていたものが、突然へこんで perfume が現れたり、壁だと思っていたものが移動したりして最初はどこまで CG で、実在するものはどれなのか区別がつかなかった。プロジェクションマッピングで移動する箱に歌詞が投影されていたが、箱の角度が変わってもなお歌詞が投影されていて、どのような手段でそれを実現しているのかわからなくなりまるで魔法のようだった。
@@ -21,10 +21,10 @@ perfume × rhizomatiks は SXSW を見てから追いかけている。ライブ
 終わった後もひたすら今回のステージのことについて思いを馳せていた。あと3回ぐらいみたい。
 
 ---
-## 動画
+### 動画
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p-qArkourQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
-## 詳細
+### 詳細
 [Perfumeを最新テクノロジーで再構築、観客は1時間ノンストップで驚きの連続](https://natalie.mu/music/news/274561)

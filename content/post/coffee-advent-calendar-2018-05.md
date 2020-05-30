@@ -9,11 +9,11 @@ tags: ["coffee"]
 
 これまではコーヒーの科学、歴史、そして家庭で楽しむための本を紹介した。本日は昨今のコンビニコーヒーブームについての解説本を紹介する。
 
-# コンビニコーヒーは、なぜ高級ホテルより美味いのか
+## コンビニコーヒーは、なぜ高級ホテルより美味いのか
 
 <div class="booklog_html"><table><tr><td class="booklog_html_image"><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/top.gif) no-repeat right;width:200px;height:25px;"></div><table cellpadding="0" cellspacing="0" border="0" width="200"><tr><td background="https://booklog.jp/common/buildhtml/wood/images/main.gif" height="160" style="vertical-align:bottom;text-align:center;line-height:0;"><a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%81%AF%E3%80%81%E3%81%AA%E3%81%9C%E9%AB%98%E7%B4%9A%E3%83%9B%E3%83%86%E3%83%AB%E3%82%88%E3%82%8A%E7%BE%8E%E5%91%B3%E3%81%84%E3%81%AE%E3%81%8B-%E3%83%9D%E3%83%97%E3%83%A9%E6%96%B0%E6%9B%B8-%E5%B7%9D%E5%B3%B6-%E8%89%AF%E5%BD%B0/dp/4591146928?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4591146928" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/51MSfWvzR6L._SL160_.jpg" width="93" height="150" style="border:0;border-radius:0;" /></a></td></tr></table><div style="background:url(https://booklog.jp/common/buildhtml/wood/images/bottom.gif) no-repeat;width:200px;height:15px;"></div></td><td class="booklog_html_info" style="padding-left:20px;"><div class="booklog_html_title" style="margin-bottom:10px;font-size:14px;font-weight:bold;"><a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%81%AF%E3%80%81%E3%81%AA%E3%81%9C%E9%AB%98%E7%B4%9A%E3%83%9B%E3%83%86%E3%83%AB%E3%82%88%E3%82%8A%E7%BE%8E%E5%91%B3%E3%81%84%E3%81%AE%E3%81%8B-%E3%83%9D%E3%83%97%E3%83%A9%E6%96%B0%E6%9B%B8-%E5%B7%9D%E5%B3%B6-%E8%89%AF%E5%BD%B0/dp/4591146928?SubscriptionId=0AVSM5SVKRWTFMG7ZR82&tag=gennei-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4591146928" target="_blank">コンビニコーヒーは、なぜ高級ホテルより美味いのか (ポプラ新書)</a></div><div style="margin-bottom:10px;"><div class="booklog_html_author" style="margin-bottom:15px;font-size:12px;line-height:1.2em">著者 : <a href="https://booklog.jp/author/%E5%B7%9D%E5%B3%B6%E8%89%AF%E5%BD%B0" target="_blank">川島良彰</a></div><div class="booklog_html_manufacturer" style="margin-bottom:5px;font-size:12px;line-height:1.2em">ポプラ社</div><div class="booklog_html_release" style="font-size:12px;line-height:1.2em">発売日 : 2015-10-01</div></div><div class="booklog_html_link_amazon"><a href="https://booklog.jp/item/1/4591146928" style="font-size:12px;" target="_blank">ブクログでレビューを見る»</a></div></td></tr></table></div>
 
-## 内容紹介
+### 内容紹介
 ```
 世界的な「コーヒーハンター」が説く
 コーヒーの最新事情と奥深き世界！
@@ -87,7 +87,7 @@ tags: ["coffee"]
 
 [from openBD](https://api.openbd.jp/v1/get?isbn=9784591146927)
 
-## 一言コメント
+### 一言コメント
 世界的な「コーヒーハンター」がコーヒーの最新事情を説く一冊。  
 著者の川島良彰氏はエルサルバドルの大学に留学し、エルサルバドル国立コーヒー研究所に入所。その後UCCに入社し、ジャマイカやインドネシアなどでコーヒー農園の開発を行った日本人です。  
 その川島良彰氏が、昨今話題になっているコンビニコーヒーを解説する。なぜ100円でおいしいコーヒーが提供できるのか。どうしてホテルのコーヒーは1000円もするのにコンビニコーヒーよりもおいしくないのか。おいしいコーヒーはどのようにして栽培され、私達消費者の手元に届くのか。そんな疑問に応える一冊となっています。

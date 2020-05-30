@@ -16,6 +16,6 @@ gennei.coffee ドメインを取得した。前から気になっていた .coff
 ドメイン取得からDNSの設定、https対応の勉強だと思えば安かったのかな。
 
 
-### 関連サイト
+#### 関連サイト
 - [rcmdnk.com: 独自ドメインになりました](https://rcmdnk.com/blog/2017/01/01/blog-octopress/)
 - [CloudflareでGitHub PagesをHTTPS化](https://rcmdnk.com/blog/2017/01/03/blog-github-web/)

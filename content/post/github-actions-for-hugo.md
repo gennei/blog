@@ -9,12 +9,12 @@ tags: ["github", "hugo", "GithubActions"]
 
 <!--more-->
 
-# 手順
+## 手順
 1. github actions の workflow を作成
 1. deploy key の作成
 1. 動作確認
 
-## github actions の workflow を作成
+### github actions の workflow を作成
 
 ここを参考に作った。
 - https://github.com/peaceiris/actions-hugo#getting-started
@@ -57,7 +57,7 @@ jobs:
 hugo の 生成したファイルの出力先が `./docs` なので deploy するときの `PUBLISH_DIR` はこれに合わせている。  
 今回の GithubActions に合わせて `gh-pages` ブランチで運用するようにした。別ブランチにすることで master ブランチの変更の無限ループも回避できるので一石二鳥だった。
 
-## deploy key の設定
+### deploy key の設定
 
 GithubActions から github へ deploy するときはこちらを参考にした  
 https://github.com/peaceiris/actions-gh-pages#getting-started
@@ -69,11 +69,11 @@ $ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 
 これで生成したものを github へ登録。これで GithubActions で build したものを `gh-pages` ブランチへ push することができるようになった。
 
-## 動作確認
+### 動作確認
 
 このような記事を書いて master ブランチへ push した結果問題なく build して deploy できた。
 ![](/img/github-actions-result.png)
 
-# 参考リンク
+## 参考リンク
 - [新しくなったGitHub ActionsでHugoブログのデプロイをしてみた](https://qiita.com/kaakaa_hoe/items/8fc2cfc2e16093cc7264)
 - [peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo)
