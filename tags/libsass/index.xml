@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LibSass on gennei's blog</title><link>https://blog.gennei.coffee/tags/libsass/</link><description>Recent content in LibSass on gennei's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 30 May 2020 16:00:00 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/libsass/index.xml" rel="self" type="application/rss+xml"/><item><title>Sass の build 時間 を 1/16 にした</title><link>https://blog.gennei.coffee/post/speedup-sass-build/</link><pubDate>Sat, 30 May 2020 16:00:00 +0900</pubDate><guid>https://blog.gennei.coffee/post/speedup-sass-build/</guid><description>tl;dr sass で書いたものを css で変換するのに Ruby製の Compass を使っていたが遅くて困っていた Ruby 製の Compass をやめて LibSass の変更 結果、160秒 かかっていたのが 10秒 になった 背景 仕事で Ruby製の Compass を使って scss を css に変換していた。ただ、Ruby製の Compass は遅いとのことが以前から言われた。またすでにメンテナンスされていないため使うのをやめたいと思っていた。 置き換えるには LibSass が主流になっておりこちらに移行しようとした。
+しかし、Compass には便利な機能で、ベンダープレフィックスやmixinがあり、単純に Compass を捨てて Libsass に移行ができなかった。
+調査 移行事例の調査をした
+Compass の送別会 脱Compassしたいけど@importでCSSスプライトを作る機能は捨てがたかったので作った話 compassからlibsassへ。gulpの設定を見直して大幅速度UP！ スプライトをやめて、mixin をやめて Compass の依存を排除してから移行しているところや、compass-mixins を使用して compass の機能を残しながら Compass から LibSass へ移行している事例があった
+対応 調査したもの踏まえて以下の対応をした
+node-sass へ置き換え Compass をやめて node-sass をインストール
+@import &amp;ldquo;compass&amp;rdquo; を使えるようにする compass-mixins をインストールして使う</description></item></channel></rss>
