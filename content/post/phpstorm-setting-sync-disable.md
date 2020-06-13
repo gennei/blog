@@ -1,5 +1,5 @@
 ---
-title: "PhpStorm の設定共有をオフにする"
+title: "PhpStorm の設定のExportができなくなったのを対応する"
 date: 2020-06-13T14:51:05+09:00
 draft: false
 tags: ["phpstorm"]
