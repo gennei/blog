@@ -2,7 +2,7 @@
 title: "SSDへWindowsをインストールしようとしたら苦労した話"
 date: 2020-09-06T11:08:15+09:00
 draft: false
-tags: ["windows", "ssd", "インストール苦労話"]
+tags: ["windows", "ssd", "インストール苦労話", "自作PC"]
 ---
 
 ## Windows を手に入れた
