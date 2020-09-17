@@ -37,7 +37,7 @@ tags: ["自作PC", "CPU", "掃除"]
 
 とりあえず 50℃ 前後になった。またグリスを塗っていないのでもう少し下がるだろう。
 
-<img src="/img/cpu-temp.png" width=500>
+<img src="/img/cpu-temp.png" width=100%>
 
 ## 動作確認
 

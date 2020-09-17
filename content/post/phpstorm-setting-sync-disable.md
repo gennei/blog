@@ -9,21 +9,22 @@ tags: ["phpstorm"]
 
 <!-- more -->
 
-### repository 設定をしているときのメニュー  
+### repository 設定をしているときのメニュー
+
 <a href="/img/phpstorm-invisible-export.png" target="_blank" rel="noopener">
-  <img src="/img/phpstorm-invisible-export.png" width=300px>
+  <img src="/img/phpstorm-invisible-export.png" width=100%>
 </a>
 
-
 ### 解決方法としてはプラグインを disable にする
+
 <a href="/img/plugin-setting-repository-disable.png" target="_blank" rel="noopener">
-  <img src="/img/plugin-setting-repository-disable.png" width=300px>
+  <img src="/img/plugin-setting-repository-disable.png" width=100%>
 </a>
 
 ### disable にしたあとのメニュー
-<a href="/img/phpstorm-visible-export.png" target="_blank" rel="noopener">
-  <img src="/img/phpstorm-visible-export.png" width=300px>
-</a>
 
+<a href="/img/phpstorm-visible-export.png" target="_blank" rel="noopener">
+  <img src="/img/phpstorm-visible-export.png" width=100%>
+</a>
 
 これわかりにくいのどうにかならないかな。Export できなくなっているのは一理あるけども。
