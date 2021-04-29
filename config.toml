@@ -25,6 +25,7 @@ summaryLength = 4
   github = "https://github.com/gennei"
   twitter = "https://twitter.com/gennei"
   instagram = "https://www.instagram.com/gennei"
+  images = ["/img/ogp.jpg"]
 
 [markup.goldmark.renderer]
   unsafe = true
