@@ -2,7 +2,7 @@
 title: "カフェスペースを作った"
 date: 2021-12-02T19:42:16+09:00
 draft: false
-tags: ["カフェ", "コーヒー"]
+tags: ["カフェ", "コーヒー", "cafe", "coffee"]
 ---
 この記事は、[Coffee Advent Carendar 2021](https://adventar.org/calendars/6288) 2日目の記事です。
 
