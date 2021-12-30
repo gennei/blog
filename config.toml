@@ -1,31 +1,31 @@
 baseURL = "https://blog.gennei.coffee/"
-languageCode = "ja"
-title = "gennei's blog"
-publishDir = "docs"
 googleAnalytics = "UA-106312693-1"
-theme = "noteworthy"
+languageCode = "ja"
+publishDir = "docs"
 summaryLength = 4
+theme = "noteworthy"
+title = "gennei's blog"
 
 [author]
-	name = "gennei"
+name = "gennei"
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
 
 [[menu.main]]
-	identifier = "tags"
-	name = "Tags"
-	url = "/tags/"
-	weight = 1
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 1
 
 [params]
-  rss = true
-  name = "gennei"
-  showReadMore = true
-  github = "https://github.com/gennei"
-  twitter = "https://twitter.com/gennei"
-  instagram = "https://www.instagram.com/gennei"
-  images = ["/img/ogp.jpg"]
+github = "https://github.com/gennei"
+images = ["/img/ogp.jpg"]
+instagram = "https://www.instagram.com/gennei"
+name = "gennei"
+rss = true
+showReadMore = true
+twitter = "https://twitter.com/gennei"
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
