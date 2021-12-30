@@ -1,9 +1,7 @@
 # URL
-https://gennei.github.io/blog/
+https://blog.gennei.coffee/
 
-# memo
-
-## ローカルで確認
+# ローカルで確認
 ```sh
 $ sh ./scripts/start.sh
 ```
