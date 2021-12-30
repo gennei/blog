@@ -1,12 +1,12 @@
 # Hugo default output directory
-public
+docs
 
-## OS Files
-# Windows
+# OS Files
+## Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# OSX
+## OSX
 .DS_Store
