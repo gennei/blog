@@ -7,8 +7,3 @@ https://gennei.github.io/blog/
 ```sh
 $ sh ./scripts/start.sh
 ```
-
-## 本番用に書き出し
-```sh
-$ sh ./scripts/build.sh
-```
