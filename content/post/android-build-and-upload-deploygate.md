@@ -64,7 +64,7 @@ $ dg deploy ./path/to/app.apk
 
 これで生成した apk アップロードできた。
 
-## まとめた
+# まとめ
 
 Makefile にまとめた
 
@@ -83,6 +83,6 @@ build-and-deploy: build-apk upload-to-deploygate
 $ make build-and-deploy
 ```
 
-## 残り
+# 残り
 
 あとは Bitrise, CircleCI, GitHub Actions などで自動化したいのでそれについては別途調べる
