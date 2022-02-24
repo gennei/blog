@@ -79,7 +79,7 @@ dg 0.8.4
 <p><a href=https://docs.deploygate.com/docs/cli-deploy>アプリのビルドとアップロード</a></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ dg deploy ./path/to/app.apk
 </code></pre></div><p>これで生成した apk アップロードできた。</p>
-<h2 id=まとめた>まとめた</h2>
+<h1 id=まとめ>まとめ</h1>
 <p>Makefile にまとめた</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-Makefile data-lang=Makefile><span style=color:#a6e22e>build-apk</span><span style=color:#f92672>:</span>
 	./gradlew assembleDebug
@@ -89,7 +89,7 @@ dg 0.8.4
 <span style=color:#a6e22e>build-and-deploy</span><span style=color:#f92672>:</span> build-apk upload-to-deploygate
 </code></pre></div><p>これでコマンドラインから build して upload するのができるようになった 🎉🎉🎉</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ make build-and-deploy
-</code></pre></div><h2 id=残り>残り</h2>
+</code></pre></div><h1 id=残り>残り</h1>
 <p>あとは Bitrise, CircleCI, GitHub Actions などで自動化したいのでそれについては別途調べる</p>
 </p>
 </div>
