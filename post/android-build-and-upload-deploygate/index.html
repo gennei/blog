@@ -1,11 +1,10 @@
 <!doctype html><html lang=ja>
 <head>
-<meta name=generator content="Hugo 0.91.2">
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=format-detection content="telephone=no">
-<title>gennei's blog</title>
+<title>コマンドラインからAndroidアプリをビルドして deploygate へアップロードする | gennei's blog</title>
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
@@ -13,15 +12,18 @@
 <link rel=mask-icon href=/safari-pinned-tab.svg color=#ff3db4>
 <meta name=theme-color content="#ffffff">
 <link rel=stylesheet href=https://blog.gennei.coffee/css/main.min.113b8750726301d2272b2fabf9695ed6bfe79dff4f4cd582cb3010010ebceea4.css>
-<link rel=alternate type=application/rss+xml href=https://blog.gennei.coffee/index.xml title="gennei's blog">
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-106312693-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="gennei's blog">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://blog.gennei.coffee/"><meta property="og:image" content="https://blog.gennei.coffee/img/ogp.jpg">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-106312693-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="コマンドラインからAndroidアプリをビルドして deploygate へアップロードする">
+<meta property="og:description" content="Androidのコマンドラインからのビルドについて調べた とりあえず公式ドキュメントを読む
+コマンドラインからアプリをビルドする | Android デベロッパー | Android Developers">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.gennei.coffee/post/android-build-and-upload-deploygate/"><meta property="og:image" content="https://blog.gennei.coffee/img/ogp.jpg"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2022-02-24T20:15:00+09:00">
+<meta property="article:modified_time" content="2022-02-24T20:15:00+09:00">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.gennei.coffee/img/ogp.jpg">
-<meta name=twitter:title content="gennei's blog">
-<meta name=twitter:description content>
+<meta name=twitter:title content="コマンドラインからAndroidアプリをビルドして deploygate へアップロードする">
+<meta name=twitter:description content="Androidのコマンドラインからのビルドについて調べた とりあえず公式ドキュメントを読む
+コマンドラインからアプリをビルドする | Android デベロッパー | Android Developers">
 </head>
 <body>
 <nav>
@@ -49,170 +51,52 @@
 </footer>
 </nav>
 <div id=content class=content-container>
-<div class=article-content>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/2019-kamihanki-book/>
-2019年上半期面白かった本3冊
-</a>
-</h2>
+<h1 class=post-title>コマンドラインからAndroidアプリをビルドして deploygate へアップロードする</h1>
+<time>February 24, 2022</time>
 <div>
-<p><p>普段上半期という単位で振り返ることはやらないが、試しにやってみる。
-上半期はコミック合わせて178冊読んだらしい。読んで面白かった本を3冊ほど紹介してみる。</p></p>
-<p><a href=/post/2019-kamihanki-book/>Read more...</a></p>
+<p>
+<h1 id=androidのコマンドラインからのビルドについて調べた>Androidのコマンドラインからのビルドについて調べた</h1>
+<p>とりあえず公式ドキュメントを読む</p>
+<p><a href="https://developer.android.com/studio/build/building-cmdline?hl=ja">コマンドラインからアプリをビルドする  |  Android デベロッパー  |  Android Developers</a></p>
+<p>どうやらビルドタスク一覧は以下のコマンドで見れるようだ</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>./gradlew tasks
+</code></pre></div><p>タスクから必要なデバッグビルドの作成方法を見つけたのでコマンドラインから実行する</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>./gradlew assembleDebug
+</code></pre></div><h1 id=deploygate-への配信>deploygate への配信</h1>
+<p>まずは公式ドキュメントを読む</p>
+<p><a href=https://docs.deploygate.com/docs/cli>コマンドラインツール</a></p>
+<h2 id=コマンドラインツールのインストール>コマンドラインツールのインストール</h2>
+<p><a href=https://deploygate.com/cli>https://deploygate.com/cli</a> を読むとターミナルで curl を実行するように書いてあるので実行する</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ curl -sSL https://deploygate.com/cli/install/10d09d54 | bash
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ dg -v
+dg 0.8.4
+</code></pre></div><p>無事インストールできた</p>
+<h2 id=deploygate-のログイン情報を作成>deploygate のログイン情報を作成</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ dg login
+</code></pre></div><p>これでログイン情報を作成できる</p>
+<h2 id=アップロードする>アップロードする</h2>
+<p>アップロードは以下のドキュメントに書いてある</p>
+<p><a href=https://docs.deploygate.com/docs/cli-deploy>アプリのビルドとアップロード</a></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ dg deploy ./path/to/app.apk
+</code></pre></div><p>これで生成した apk アップロードできた。</p>
+<h2 id=まとめた>まとめた</h2>
+<p>Makefile にまとめた</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-Makefile data-lang=Makefile><span style=color:#a6e22e>build-apk</span><span style=color:#f92672>:</span>
+	./gradlew assembleDebug
+
+<span style=color:#a6e22e>upload-to-deploygate</span><span style=color:#f92672>:</span>
+	dg deploy ./path/to/app.apk
+<span style=color:#a6e22e>build-and-deploy</span><span style=color:#f92672>:</span> build-apk upload-to-deploygate
+</code></pre></div><p>これでコマンドラインから build して upload するのができるようになった 🎉🎉🎉</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>$ make build-and-deploy
+</code></pre></div><h2 id=残り>残り</h2>
+<p>あとは Bitrise, CircleCI, GitHub Actions などで自動化したいのでそれについては別途調べる</p>
+</p>
 </div>
-<div class=post-footer>
-<time>July 8, 2019</time>
-<a class=tag href=/tags/book>#book</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-18/>
-コーヒー・ハウス - コーヒー Advent Calendar 2018 18日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 18日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-18/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 18, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-17/>
-コーヒーが廻り世界史が廻る―近代市民社会の黒い血液 - コーヒー Advent Calendar 2018 17日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 17日目の記事です。</p>
-<p><a href=/post/coffee-advent-calendar-2018-17/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 17, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-16/>
-コーヒーピープル - コーヒー Advent Calendar 2018 16日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 16日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-16/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 16, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-15/>
-ブルーボトルコーヒーのフィロソフィー コーヒー Advent Calendar 2018 15日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 15日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-15/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 15, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-14/>
-珈琲屋 - コーヒー Advent Calendar 2018 14日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 14日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-14/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 14, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-13/>
-コーヒーに憑かれた男たち - Coffee Advent Calendar 2018 13日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 13日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-13/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 13, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/shiganai/>
-外から眺めていたしがないラジオ #しがないラジオ
-</a>
-</h2>
-<div>
-<p><p>この記事は <a href=https://adventar.org/calendars/3012>#しがないラジオ 2 Advent Calendar 2018</a> の13日目の記事です。</p></p>
-<p><a href=/post/shiganai/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 13, 2018</time>
-<a class=tag href=/tags/podcast>#podcast</a>
-<a class=tag href=/tags/%E3%81%97%E3%81%8C%E3%81%AA%E3%81%84%E3%83%A9%E3%82%B8%E3%82%AA>#しがないラジオ</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-11/>
-私はコーヒーで世界を変えることにした - コーヒーアドベントカレンダー2018 11日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 11日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-11/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 11, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-<article>
-<h2>
-<a href=https://blog.gennei.coffee/post/coffee-advent-calendar-2018-10/>
-たった一杯で、 幸せになる珈琲 - コーヒーアドベントカレンダー2018 10日目
-</a>
-</h2>
-<div>
-<p>この記事は コーヒー Advent Calendar 2018 の 10日目の記事です</p>
-<p><a href=/post/coffee-advent-calendar-2018-10/>Read more...</a></p>
-</div>
-<div class=post-footer>
-<time>December 10, 2018</time>
-<a class=tag href=/tags/coffee>#coffee</a>
-</div>
-</article>
-</div>
-<div class=paginator>
-<p>Page 3 of 6</p>
-<div class=paginator-group>
-<a class=color-link href=/page/2/><svg width="13" height="9" viewBox="0 0 13 9" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g class="color-arrow" fill="#63bda2" fill-rule="nonzero"><polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"/><polygon id="Path" points="13 4 13 5 1 5 1 4"/></g></svg>
-Newer
-</a>
-<a class="color-link older" href=/page/4/>
-Older<svg width="13" height="9" viewBox="0 0 13 9" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g class="color-arrow" fill="#63bda2" fill-rule="nonzero"><polygon points="7.6707477 1.37628835 8.3292523 0.623711653 12.7592994 4.50000282 8.32918951 8.37629079 7.67069049 7.62370921 11.2407006 4.49999718"/><polygon id="Path" points="0 5 0 4 12 4 12 5"/></g></svg>
-</a>
-</div>
+<div class=page-footer>
+<hr class=footer-divider>
+<a class=tag href=/tags/android>#android</a>
+<a class=tag href=/tags/deploygate>#deploygate</a>
 </div>
 </div>
 <footer class=footer-mobile>
