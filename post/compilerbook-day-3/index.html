@@ -4,7 +4,7 @@
 <meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=format-detection content="telephone=no">
-<title>Perfume × Technology を見た | gennei's blog</title>
+<title>コンパイラ作成日記 3日目 | gennei's blog</title>
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
@@ -13,16 +13,20 @@
 <meta name=theme-color content="#ffffff">
 <link rel=stylesheet href=https://blog.gennei.coffee/css/main.min.113b8750726301d2272b2fabf9695ed6bfe79dff4f4cd582cb3010010ebceea4.css>
 <link type=text/css rel=stylesheet href=/css/custom.css>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-106312693-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Perfume × Technology を見た">
-<meta property="og:description" content="Perfume x Tecnology presents Reframe に行った">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-106312693-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="コンパイラ作成日記 3日目">
+<meta property="og:description" content="こちらの挑戦日記3日目
+低レイヤを知りたい人のためのCコンパイラ作成入門
+今日やったこと  再帰下降構文解析の復習 スタックマシンの概念の復習 四則演算のできる言語の作成 単項プラスと単項マイナス 比較演算子のアイディアを読むところまで  今日は引っ越しの都合でワクチン接種券が届いていなかったので発券をした。あと運転免許証の住所変更をやっていなかったので警察署へ手続きへ行った。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.gennei.coffee/post/perfume-technology/"><meta property="og:image" content="https://blog.gennei.coffee/img/ogp.jpg"><meta property="article:section" content="post">
-<meta property="article:published_time" content="2018-03-22T23:29:41+09:00">
-<meta property="article:modified_time" content="2018-03-22T23:29:41+09:00">
+<meta property="og:url" content="https://blog.gennei.coffee/post/compilerbook-day-3/"><meta property="og:image" content="https://blog.gennei.coffee/img/ogp.jpg"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2022-03-09T21:15:22+09:00">
+<meta property="article:modified_time" content="2022-03-09T21:15:22+09:00">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.gennei.coffee/img/ogp.jpg">
-<meta name=twitter:title content="Perfume × Technology を見た">
-<meta name=twitter:description content="Perfume x Tecnology presents Reframe に行った">
+<meta name=twitter:title content="コンパイラ作成日記 3日目">
+<meta name=twitter:description content="こちらの挑戦日記3日目
+低レイヤを知りたい人のためのCコンパイラ作成入門
+今日やったこと  再帰下降構文解析の復習 スタックマシンの概念の復習 四則演算のできる言語の作成 単項プラスと単項マイナス 比較演算子のアイディアを読むところまで  今日は引っ越しの都合でワクチン接種券が届いていなかったので発券をした。あと運転免許証の住所変更をやっていなかったので警察署へ手続きへ行った。">
 </head>
 <body>
 <nav>
@@ -50,31 +54,59 @@
 </footer>
 </nav>
 <div id=content class=content-container>
-<h1 class=post-title>Perfume × Technology を見た</h1>
-<time>March 22, 2018</time>
+<h1 class=post-title>コンパイラ作成日記 3日目</h1>
+<time>March 9, 2022</time>
 <div>
 <p>
-<p><a href=https://www.nhk-p.co.jp/perfume_technology/>Perfume x Tecnology presents Reframe</a> に行った</p>
-<blockquote class=instagram-media data-instgrm-captioned data-instgrm-permalink=https://www.instagram.com/p/BglfHFMHAj-/ data-instgrm-version=8 style="background:#fff;border:0;border-radius:3px;box-shadow:0 0 1px rgba(0,0,0,.5),0 1px 10px rgba(0,0,0,.15);margin:1px;max-width:658px;padding:0;width:99.375%;width:-webkit-calc(100% - 2px);width:calc(100% - 2px)"><div style=padding:8px> <div style="background:#f8f8f8;line-height:0;margin-top:40px;padding:50% 0;text-align:center;width:100%"> <div style="background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC);display:block;height:44px;margin:0 auto -44px;position:relative;top:-22px;width:44px"></div></div> <p style="margin:8px 0 0;padding:0 4px"> <a href=https://www.instagram.com/p/BglfHFMHAj-/ style=color:#000;font-family:Arial,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:17px;text-decoration:none;word-wrap:break-word target=_blank>最先端のテクノロジーアートを見た。perfumeのライブとはまた違ったもの。表現ダンスではないし、テクノロジーのお披露目会でもない。簡単に説明する名前がない。 #perfume #rhizomatiks #mediaart #真鍋大度 #tech #technology #reframe</a></p> <p style="color:#c9c8cd;font-family:Arial,sans-serif;font-size:14px;line-height:17px;margin-bottom:0;margin-top:8px;overflow:hidden;padding:8px 0 7px;text-align:center;text-overflow:ellipsis;white-space:nowrap"><a href=https://www.instagram.com/gennei/ style=color:#c9c8cd;font-family:Arial,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:17px target=_blank> げんえい</a>さん(@gennei)がシェアした投稿 - <time style=font-family:Arial,sans-serif;font-size:14px;line-height:17px datetime=2018-03-21T12:44:36+00:00> 3月 21, 2018 at 5:44午前 PDT</time></p></div></blockquote> <script async defer src=//www.instagram.com/embed.js></script>
+<p>こちらの挑戦日記3日目</p>
+<p><a href=https://www.sigbus.info/compilerbook>低レイヤを知りたい人のためのCコンパイラ作成入門</a></p>
+<h1 id=今日やったこと>今日やったこと</h1>
+<ul>
+<li>再帰下降構文解析の復習</li>
+<li>スタックマシンの概念の復習</li>
+<li>四則演算のできる言語の作成</li>
+<li>単項プラスと単項マイナス</li>
+<li>比較演算子のアイディアを読むところまで</li>
+</ul>
+<p>今日は引っ越しの都合でワクチン接種券が届いていなかったので発券をした。あと運転免許証の住所変更をやっていなかったので警察署へ手続きへ行った。</p>
+<p>毎日終わりに日記を書こうと思っていたけど、昨日の分書けていなかったので午前中に記事を書いた。</p>
 <hr>
-<h3 id=感想>感想</h3>
-<p>perfume × rhizomatiks は SXSW を見てから追いかけている。ライブDVDを買ったり、ドキュメンタリーの映画を見たりして perfume の作品を造っている人たちがなにを考えながら演出をしているのか調べていた。なので今回のイベントはなにがなんでも行きたいと思っていた。10時開始のチケット販売に張り付いてたまたまチケットが抑えれたのでラッキーだった。</p>
-<p>始まる前はただの壁だと思っていたものが、突然へこんで perfume が現れたり、壁だと思っていたものが移動したりして最初はどこまで CG で、実在するものはどれなのか区別がつかなかった。プロジェクションマッピングで移動する箱に歌詞が投影されていたが、箱の角度が変わってもなお歌詞が投影されていて、どのような手段でそれを実現しているのかわからなくなりまるで魔法のようだった。</p>
-<p>終わった後もひたすら今回のステージのことについて思いを馳せていた。あと3回ぐらいみたい。</p>
+<h2 id=昨日の復習>昨日の復習</h2>
+<p>昨日再帰下降構文解析とスタックマシンの文章を読んでいたが途中で頭痛がしたので流し読みして切り上げた。今日は復習するところから始めた。</p>
+<p>今日読み直したらそんなに難しいことではないのではという気持ちになった（理解がちゃんとできているかは怪しい）</p>
+<p>四則演算を実装する箇所の以下のコードを読んで感動した。</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c data-lang=c><span style=color:#75715e>// 抽象構文木を下りながらコード生成
+</span><span style=color:#75715e></span>Node <span style=color:#f92672>*</span>node <span style=color:#f92672>=</span> expr();
+gen(node);
+</code></pre></div><p>ちゃんと責務が分割され、シンプルなルールで構文木を作れるようになるとこんなにもソースコードが読みやすくなるのかと。</p>
+<h2 id=単項プラス単項マイナス>単項プラス、単項マイナス</h2>
+<p>単項の+-の導入であれば以下のルールになるのも面白かった。</p>
+<h3 id=before>Before</h3>
+<pre tabindex=0><code>expr    = mul (&quot;+&quot; mul | &quot;-&quot; mul)*
+mul     = primary (&quot;*&quot; primary | &quot;/&quot; primary)*
+primary = num | &quot;(&quot; expr &quot;)&quot;
+
+</code></pre><h3 id=after>After</h3>
+<pre tabindex=0><code>expr    = mul (&quot;+&quot; mul | &quot;-&quot; mul)*
+mul     = unary (&quot;*&quot; unary | &quot;/&quot; unary)*
+unary   = (&quot;+&quot; | &quot;-&quot;)? primary
+primary = num | &quot;(&quot; expr &quot;)&quot;
+</code></pre><p>結局ASTで表現できるようになると評価する順番は意識する必要はあるが木構造にどのように落とし込む必要があるのかということだけを意識すればよくなるので、今まで別々のものが同じ抽象度で扱えるようになったのはとてもわかりやすくなった。先頭から読んでいって、先読みして戻ってくるような発想をしなくてもよさそう。</p>
+<p>最近 <a href=https://yapcjapan.org/2022online/>YAPC::Japan::Online 2022</a> で見た発表でも似たような話をしていた気がするなあ。</p>
+<p><a href=https://speakerdeck.com/makenowjust/state-of-the-art-of-redos-detection-241e16d2-ad8e-462c-8c0e-b6a95a735d59>ReDoS 検出の最先端 recheck の紹介 / State of the Art of ReDoS Detection - Speaker Deck</a></p>
+<iframe class=speakerdeck-iframe frameborder=0 src="https://speakerdeck.com/player/7e913e6530e3464686edc3f62668926a?slide=1" title="ReDoS 検出の最先端 recheck の紹介 / State of the Art of ReDoS Detection" allowfullscreen mozallowfullscreen=true webkitallowfullscreen=true style="border:0;background:padding-box padding-box rgba(0,0,0,.1);margin:0;padding:0;border-radius:6px;box-shadow:rgba(0,0,0,.2)0 5px 40px;width:560px;height:314px" data-ratio=1.78343949044586></iframe>
+<p>たぶん違うんだろうけど一瞬これと関連するのかなと思った。正規表現の先読みとASTの解析は違うんだろうなあ。</p>
+<h2 id=比較演算子>比較演算子</h2>
+<p>これまでは1文字の演算子のみだったが2文字のものを扱っていく。node に文字列長を持つようになっているが、数字のnodeは0文字としていたなあ(数字のときは文字列長を意識しないからかな)。</p>
 <hr>
-<h3 id=動画>動画</h3>
-<iframe width=560 height=315 src=https://www.youtube.com/embed/p-qArkourQA frameborder=0 allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<hr>
-<h3 id=詳細>詳細</h3>
-<p><a href=https://natalie.mu/music/news/274561>Perfumeを最新テクノロジーで再構築、観客は1時間ノンストップで驚きの連続</a></p>
+<p>明日は比較演算子からやっていく。仕事ではないので無理をせず眠くなったら昼寝をするし、散歩にも出よう。</p>
 </p>
 </div>
 <div class=page-footer>
 <hr class=footer-divider>
-<a class=tag href=/tags/perfume>#perfume</a>
-<a class=tag href=/tags/technology>#technology</a>
-<a class=tag href=/tags/rhizomatiks>#rhizomatiks</a>
-<a class=tag href=/tags/art>#art</a>
+<a class=tag href=/tags/compiler>#compiler</a>
+<a class=tag href=/tags/compilerbook>#compilerbook</a>
+<a class=tag href=/tags/c>#C</a>
 </div>
 </div>
 <footer class=footer-mobile>
