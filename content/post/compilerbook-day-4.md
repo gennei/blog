@@ -9,9 +9,12 @@ tags: ["compiler", "compilerbook", "C"]
 
 [低レイヤを知りたい人のためのCコンパイラ作成入門](https://www.sigbus.info/compilerbook)
 
+リポジトリはこちら。 [gennei/compilerbook-challenge](https://github.com/gennei/compilerbook-challenge)
+
 # 今日やったこと
 - 比較演算子の実装
 
+commit: [gennei/compilerbook-challenge@ba71e9b](https://github.com/gennei/compilerbook-challenge/commit/ba71e9bf0cf4c2bf9eae2d81322eab1bcf96dafe)
 
 ## 比較演算子の実装
 

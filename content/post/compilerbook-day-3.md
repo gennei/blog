@@ -9,12 +9,16 @@ tags: ["compiler", "compilerbook", "C"]
 
 [低レイヤを知りたい人のためのCコンパイラ作成入門](https://www.sigbus.info/compilerbook)
 
+リポジトリはこちら。 [gennei/compilerbook-challenge](https://github.com/gennei/compilerbook-challenge)
+
 # 今日やったこと
 - 再帰下降構文解析の復習
 - スタックマシンの概念の復習
 - 四則演算のできる言語の作成
 - 単項プラスと単項マイナス
 - 比較演算子のアイディアを読むところまで
+
+commit: [gennei/compilerbook-challenge@7a25e4a](https://github.com/gennei/compilerbook-challenge/commit/7a25e4a48fb8782151282ab90580dde39641a886)
 
 今日は引っ越しの都合でワクチン接種券が届いていなかったので発券をした。あと運転免許証の住所変更をやっていなかったので警察署へ手続きへ行った。
 
