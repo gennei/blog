@@ -1,5 +1,5 @@
 ---
-title: "PhperKaigi 2022 に参加した"
+title: "PHPerKaigi 2022 に参加した"
 date: 2022-04-14T21:54:56+09:00
 draft: false
 tags: ["php", "phperkaigi", "カンファレンス"]
