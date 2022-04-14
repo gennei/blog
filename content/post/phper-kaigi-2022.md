@@ -15,6 +15,8 @@ tags: ["php", "phperkaigi", "カンファレンス"]
 
 とくにカンファレンスの廊下やフリースペースで始まる雑談、アンカンファレンスがとても楽しかった。PHPやその周辺の情報交換をする場所としてカンファレンスの廊下はとてもありがたい場所だったんだなと再認識できた。
 
+声をかけたいと思っていた方々いたのだが現地ですれ違えなかったり名前と顔が一致していなくて話せなかった人がたくさんいるので次回は声かけて話をしてみたいな。
+
 そして、休憩がてら [@yamato_sorariku](https://twitter.com/yamato_sorariku)さん とコーヒーを飲みに喫茶店へ行った。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/gennei?ref_src=twsrc%5Etfw">@gennei</a> さんとコーヒー談義してる <a href="https://t.co/S3ubbP5wL7">pic.twitter.com/S3ubbP5wL7</a></p>&mdash; やまと | ☕️ | 🐈 | 🐴 (@yamato_sorariku) <a href="https://twitter.com/yamato_sorariku/status/1513031814004502528?ref_src=twsrc%5Etfw">April 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
