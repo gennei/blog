@@ -19,25 +19,25 @@ LEAVES COFFEE ROASTERS が焙煎した コロンビアの Tatambo Geisha を4種
 
 ### 1. Cold Brew
 
-<img src="/img/koffee_mameya_kakeru/coldbrew.jpg" width=70%>
+<img src="/img/koffee_mameya_kakeru/coldbrew.jpg" width=100%>
 
 まず最初は通常の水出しコーヒーとバラを入れた水の水出しコーヒーの飲み比べ。正直自分には違いがそこまでわからなかった。たぶん何も言わずにバラが入ったものを渡されても気づかないかもしれない。それよりもコーヒーのフルーティーさが勝っていてそのインパクトのほうが強かった。苦味が全然ないのでコーヒーを飲んでいるとは思えない飲み物だった。
 
 ### 2. Filter
 
-<img src="/img/koffee_mameya_kakeru/mag.jpg" width=70%>
+<img src="/img/koffee_mameya_kakeru/mag.jpg" width=100%>
 
 エアロプレスでの抽出。モクテルで使用するためのコーヒー抽出したものをテイスティングした。このエアロプレスで抽出したものはコースに含まれていませんと言われた。贅沢すぎないか？温度変化が下がるにつれて甘みが感じられたような気がする。
 
 ### 3. Mocktail
 
-<img src="/img/koffee_mameya_kakeru/mocktail.jpg" width=70%>
+<img src="/img/koffee_mameya_kakeru/mocktail.jpg" width=100%>
 
 エアロプレスで抽出したものとココナッツウォーターのモクテル。フランボワーズのシャーベットと共に。もうコーヒーではなくジュースだった。コーヒーはミルクぐらいしか掛け合わせてこなかったのでこんなふうにいろいろと試していいんだよなと思わされたので家でも実験してみたい。
 
 ### 4. Latte×Kashi
 
-<img src="/img/koffee_mameya_kakeru/late.jpg" width=70%>
+<img src="/img/koffee_mameya_kakeru/late.jpg" width=100%>
 
 ラテとクッキーにバラジャムをのせたもののマリアージュ。いい酸味とミルクフォームがとても美味しい中にバラのジャムがのったクッキーを頬張ると口の中が幸せになった。
 

@@ -1,3 +1,14 @@
 hr {
     margin: 32px 0;
 }
+
+p {
+    margin: 32px 0;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #f2f2f2;
+}
