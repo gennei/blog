@@ -33,6 +33,3 @@ jobs:
 
       - name: Run Lighthouse CI
         run: lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
-
-      - name: Add Lighthouse report to PR
-        uses: treosh/lighthouse-ci-action@v9
