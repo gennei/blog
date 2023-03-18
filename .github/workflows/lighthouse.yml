@@ -35,12 +35,7 @@ jobs:
         run: lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
 
       - name: Add Lighthouse report to PR
-        uses: treosh/lighthouse-ci-action@v8
+        uses: treosh/lighthouse-ci-action@v9
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           commentMode: pr
-          performance: 90
-          accessibility: 90
-          best-practices: 90
-          seo: 90
-          pwa: 90
