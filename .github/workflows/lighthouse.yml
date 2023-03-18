@@ -1,0 +1,42 @@
+name: Lighthouse
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build # あなたのプロジェクトのビルドコマンドに変更してください。
+
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli@0.8.x
+
+      - name: Run Lighthouse CI
+        run: lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
+
+      - name: Add Lighthouse report to PR
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          commentMode: pr
+          performance: 90
+          accessibility: 90
+          best-practices: 90
+          seo: 90
+          pwa: 90
