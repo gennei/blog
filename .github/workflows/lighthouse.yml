@@ -10,13 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 16
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.101.0'
+          extended: true
+
+      - name: Build
+        run: HUGO_ENV=production hugo --minify
 
       - name: Install Lighthouse CI
         run: npm install -g @lhci/cli@0.8.x
