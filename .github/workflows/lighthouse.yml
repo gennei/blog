@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          ref: ${{ github.event.pull_request.head.sha }}
           submodules: true
 
       - name: Setup Node.js
@@ -32,3 +33,5 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.11.x
           lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
