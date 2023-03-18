@@ -2,7 +2,7 @@
 title: "ChatGPT4 を使って Github Actions でサイトのパフォーマンス計測やってみた"
 date: 2023-03-18T23:40:00+09:00
 draft: false
-tags: ["AI", "ChatGPT", "performance"]
+tags: ["AI", "ChatGPT", "performance", "lighthouse"]
 ---
 
 サイトのパフォーマンスを継続的に計測して可視化してみたいなあと思ったので今話題のChat-GPTに聞いてみた。
