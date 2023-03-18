@@ -36,6 +36,3 @@ jobs:
 
       - name: Add Lighthouse report to PR
         uses: treosh/lighthouse-ci-action@v9
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          commentMode: pr
