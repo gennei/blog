@@ -3,7 +3,13 @@ title: "ソフトウェアエンジニアにおすすめしたい本を100冊選
 date: 2023-09-17T12:00:00+09:00
 draft: false
 tags: ["エンジニア", "本", "読書"]
+images: ["/img/books.jpg"]
 ---
+
+<figure>
+<img src="/img/books.jpg" width="100%" alt="本棚から本を選ぶ人">
+<figcaption>Adobe Firefly で生成</figcaption>
+</figure>
 
 PdMむけの記事でこのような記事がある。
 
