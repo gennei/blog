@@ -33,7 +33,24 @@
       {{ template "_internal/google_analytics.html" . }}
     {{- end -}}
     {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+
+    <!--twitter-->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ .Title }}"/>
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+    {{- with $.Params.images -}}
+    {{- range first 6 . }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end -}}
+    {{- else -}}
+    {{- $images := $.Resources.ByType "image" -}}
+    {{- $featured := $images.GetMatch "*feature*" -}}
+    {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+    {{- with $featured -}}
+    <meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+    {{- else -}}
+    {{- with $.Site.Params.images }}<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
+    {{- end -}}
+    {{- end -}}
+
     <!-- hatena -->
     <link rel="author" href="https://www.hatena.ne.jp/gennei/" />
 </head>
