@@ -1,7 +1,7 @@
 ---
 title: "購読しているポッドキャスト一覧化してみた"
 date: 2024-01-01T19:00:00+09:00
-draft: true
+draft: false
 tags: ["podcast"]
 ---
 
