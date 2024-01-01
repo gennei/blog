@@ -169,4 +169,4 @@ tags: ["podcast"]
 
 書き捨てたコードも一応リポジトリにあげておいた。
 
-[gennei/opml2xml](https://github.com/gennei/opml2xml)
+[gennei/opml2md](https://github.com/gennei/opml2md)
