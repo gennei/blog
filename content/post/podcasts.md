@@ -57,7 +57,7 @@ tags: ["podcast"]
 - [mercan.fm](https://feeds.soundcloud.com/users/soundcloud:users:233832821/sounds.rss)
 - [metascientia #メタサイエンティア](https://anchor.fm/s/b34b1f00/ポッドキャスト/rss)
 - [mhatta's ポッドキャスト](https://www.mhatta.org/wp/mhattapod/feed/ポッドキャスト/)
-- [MIAU ポッドキャスト](https://miau.jp/)
+- MIAU ポッドキャスト
 - [Middle Aged Developers](https://anchor.fm/s/6cb3ad28/ポッドキャスト/rss)
 - [MIMIGURIの談話室](https://anchor.fm/s/5ed0ea68/ポッドキャスト/rss)
 - [Misreading Chat](https://misreading.chat/category/episodes/feed/)
