@@ -3,9 +3,12 @@ title: "YAPC::Hiroshima 2024 に参加した"
 date: 2024-02-11T08:47:33+09:00
 draft: false
 tags: ["yapc"]
+images: ["/img/okonomi.jpg"]
 ---
 
 [YAPC::Hiroshima 2024](https://yapcjapan.org/2024hiroshima/) に参加した。振り返りを書いていく！
+
+<img src="/img/okonomi.jpg" width="100%" alt="お好み焼き">
 
 ## 新幹線
 
