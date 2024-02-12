@@ -5,7 +5,7 @@ draft: false
 tags: ["yapc"]
 ---
 
-[YAPC::Hiroshima 2024](https://yapcjapan.org/2024hiroshima/) に参加した。
+[YAPC::Hiroshima 2024](https://yapcjapan.org/2024hiroshima/) に参加した。振り返りを書いていく！
 
 ## 新幹線
 
