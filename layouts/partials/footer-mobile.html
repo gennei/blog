@@ -1,0 +1,10 @@
+<footer class="footer-mobile">
+	{{ partial "social.html" . }}
+
+	<div class="footer-mobile-links">
+		<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+	<p style="font-size: 0.6em;">本ページはアフィリエイトプログラムによる収益を得ています</p>
+	{{ $script := resources.Get "js/main.js" | minify | fingerprint -}}
+	<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
+</footer>
