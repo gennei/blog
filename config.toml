@@ -6,7 +6,7 @@ summaryLength = 4
 theme = "noteworthy"
 title = "gennei's blog"
 
-[author]
+[params.author]
 name = "gennei"
 
 [taxonomies]
