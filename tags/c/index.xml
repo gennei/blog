@@ -1,12 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on gennei's blog</title><link>https://blog.gennei.coffee/tags/c/</link><description>Recent content in C on gennei's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 17 Mar 2022 21:15:22 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>コンパイラ作成日記 5日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-5/</link><pubDate>Thu, 17 Mar 2022 21:15:22 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-5/</guid><description>こちらの挑戦日記5日目
-低レイヤを知りたい人のためのCコンパイラ作成入門
-リポジトリはこちら。 gennei/compilerbook-challenge</description></item><item><title>コンパイラ作成日記 4日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-4/</link><pubDate>Fri, 11 Mar 2022 17:32:53 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-4/</guid><description>こちらの挑戦日記4日目
-低レイヤを知りたい人のためのCコンパイラ作成入門
-リポジトリはこちら。 gennei/compilerbook-challenge</description></item><item><title>コンパイラ作成日記 3日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-3/</link><pubDate>Wed, 09 Mar 2022 21:15:22 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-3/</guid><description>こちらの挑戦日記3日目
-低レイヤを知りたい人のためのCコンパイラ作成入門
-リポジトリはこちら。 gennei/compilerbook-challenge</description></item><item><title>コンパイラ作成日記 2日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-2/</link><pubDate>Wed, 09 Mar 2022 10:38:49 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-2/</guid><description>こちらの挑戦日記2日目
-低レイヤを知りたい人のためのCコンパイラ作成入門
-2日目は以下のことをやった
-strtol 関数の調査 トークナイザの導入 エラーメッセージの改良 抽象構文木とスタックマシンのお勉強 strol 関数について ポイントの一つとして、文字列に数字と無関係の文字が含まれている場合等、読み込みに失敗した場合に、第二引数のポインタにそのアドレスを格納できる点がある。これにより読み込みに失敗した箇所を正しく同定できる。この処理が不要な場合はNULLを指定すればよい。</description></item><item><title>コンパイラ作成日記 1日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-1/</link><pubDate>Tue, 08 Mar 2022 10:21:08 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-1/</guid><description>まとまった時間がとれたのでこれに挑戦する。
-低レイヤを知りたい人のためのCコンパイラ作成入門
-環境構築 M1　Mac編 M1 Mac で動くかどうかは書いていなかったのでとりあえず環境構築やってみた。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on gennei's blog</title><link>https://blog.gennei.coffee/tags/c/</link><description>Recent content in C on gennei's blog</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 17 Mar 2022 21:15:22 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>コンパイラ作成日記 5日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-5/</link><pubDate>Thu, 17 Mar 2022 21:15:22 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-5/</guid><description>&lt;p&gt;こちらの挑戦日記5日目&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sigbus.info/compilerbook"&gt;低レイヤを知りたい人のためのCコンパイラ作成入門&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;リポジトリはこちら。 &lt;a href="https://github.com/gennei/compilerbook-challenge"&gt;gennei/compilerbook-challenge&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="今日やったこと"&gt;今日やったこと&lt;/h1&gt;
+&lt;h2 id="分割コンパイルとリンク"&gt;分割コンパイルとリンク&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1つのファイルで管理するのがしんどくなってきたので小さくする&lt;/li&gt;
+&lt;li&gt;9cc.cという1つのファイルを、以下の5つのファイルに分割する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;9cc.h&lt;/code&gt;: ヘッダファイル&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;main.c&lt;/code&gt;: &lt;code&gt;main&lt;/code&gt;関数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;parse.c&lt;/code&gt;: パーサ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;codegen.c&lt;/code&gt;: コードジェネレータ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tokenize.c&lt;/code&gt;: トークナイズ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;やっと分割できる。分割してみてわかったのは header file というものを久しく書いていなくて懐かしかった。header file はなんとなく interface に似ている。存在する function はありながら実態は別のファイルに記述されている、そういうところが似ている。&lt;br&gt;
+コンパイルするので実装漏れがあってもエラーになるのであんまり不安はないがグローバル変数を引き回すのはやはり分かりづらいなあ。&lt;/p&gt;</description></item><item><title>コンパイラ作成日記 4日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-4/</link><pubDate>Fri, 11 Mar 2022 17:32:53 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-4/</guid><description>&lt;p&gt;こちらの挑戦日記4日目&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sigbus.info/compilerbook"&gt;低レイヤを知りたい人のためのCコンパイラ作成入門&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;リポジトリはこちら。 &lt;a href="https://github.com/gennei/compilerbook-challenge"&gt;gennei/compilerbook-challenge&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="今日やったこと"&gt;今日やったこと&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;比較演算子の実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;commit: &lt;a href="https://github.com/gennei/compilerbook-challenge/commit/ba71e9bf0cf4c2bf9eae2d81322eab1bcf96dafe"&gt;gennei/compilerbook-challenge@ba71e9b&lt;/a&gt;&lt;/p&gt;</description></item><item><title>コンパイラ作成日記 3日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-3/</link><pubDate>Wed, 09 Mar 2022 21:15:22 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-3/</guid><description>&lt;p&gt;こちらの挑戦日記3日目&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sigbus.info/compilerbook"&gt;低レイヤを知りたい人のためのCコンパイラ作成入門&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;リポジトリはこちら。 &lt;a href="https://github.com/gennei/compilerbook-challenge"&gt;gennei/compilerbook-challenge&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="今日やったこと"&gt;今日やったこと&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;再帰下降構文解析の復習&lt;/li&gt;
+&lt;li&gt;スタックマシンの概念の復習&lt;/li&gt;
+&lt;li&gt;四則演算のできる言語の作成&lt;/li&gt;
+&lt;li&gt;単項プラスと単項マイナス&lt;/li&gt;
+&lt;li&gt;比較演算子のアイディアを読むところまで&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;commit: &lt;a href="https://github.com/gennei/compilerbook-challenge/commit/7a25e4a48fb8782151282ab90580dde39641a886"&gt;gennei/compilerbook-challenge@7a25e4a&lt;/a&gt;&lt;/p&gt;</description></item><item><title>コンパイラ作成日記 2日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-2/</link><pubDate>Wed, 09 Mar 2022 10:38:49 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-2/</guid><description>&lt;p&gt;こちらの挑戦日記2日目&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sigbus.info/compilerbook"&gt;低レイヤを知りたい人のためのCコンパイラ作成入門&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2日目は以下のことをやった&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;strtol 関数の調査&lt;/li&gt;
+&lt;li&gt;トークナイザの導入&lt;/li&gt;
+&lt;li&gt;エラーメッセージの改良&lt;/li&gt;
+&lt;li&gt;抽象構文木とスタックマシンのお勉強&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="strol-関数について"&gt;strol 関数について&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ポイントの一つとして、文字列に数字と無関係の文字が含まれている場合等、読み込みに失敗した場合に、第二引数のポインタにそのアドレスを格納できる点がある。これにより読み込みに失敗した箇所を正しく同定できる。この処理が不要な場合はNULLを指定すればよい。&lt;/p&gt;</description></item><item><title>コンパイラ作成日記 1日目</title><link>https://blog.gennei.coffee/post/compilerbook-day-1/</link><pubDate>Tue, 08 Mar 2022 10:21:08 +0900</pubDate><guid>https://blog.gennei.coffee/post/compilerbook-day-1/</guid><description>&lt;p&gt;まとまった時間がとれたのでこれに挑戦する。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sigbus.info/compilerbook"&gt;低レイヤを知りたい人のためのCコンパイラ作成入門&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="環境構築"&gt;環境構築&lt;/h1&gt;
+&lt;h2 id="m1mac編"&gt;M1　Mac編&lt;/h2&gt;
+&lt;p&gt;M1 Mac で動くかどうかは書いていなかったのでとりあえず環境構築やってみた。&lt;/p&gt;</description></item></channel></rss>

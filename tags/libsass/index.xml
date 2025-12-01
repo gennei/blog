@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LibSass on gennei's blog</title><link>https://blog.gennei.coffee/tags/libsass/</link><description>Recent content in LibSass on gennei's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 30 May 2020 16:00:00 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/libsass/index.xml" rel="self" type="application/rss+xml"/><item><title>Sass の build 時間 を 1/16 にした</title><link>https://blog.gennei.coffee/post/speedup-sass-build/</link><pubDate>Sat, 30 May 2020 16:00:00 +0900</pubDate><guid>https://blog.gennei.coffee/post/speedup-sass-build/</guid><description>&lt;h2 id="tldr">tl;dr&lt;/h2>
-&lt;ul>
-&lt;li>sass で書いたものを css で変換するのに Ruby製の &lt;a href="https://github.com/Compass/compass">Compass&lt;/a> を使っていたが遅くて困っていた&lt;/li>
-&lt;li>Ruby 製の Compass をやめて LibSass の変更&lt;/li>
-&lt;li>結果、&lt;strong>160秒&lt;/strong> かかっていたのが &lt;strong>10秒&lt;/strong> になった&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LibSass on gennei's blog</title><link>https://blog.gennei.coffee/tags/libsass/</link><description>Recent content in LibSass on gennei's blog</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 30 May 2020 16:00:00 +0900</lastBuildDate><atom:link href="https://blog.gennei.coffee/tags/libsass/index.xml" rel="self" type="application/rss+xml"/><item><title>Sass の build 時間 を 1/16 にした</title><link>https://blog.gennei.coffee/post/speedup-sass-build/</link><pubDate>Sat, 30 May 2020 16:00:00 +0900</pubDate><guid>https://blog.gennei.coffee/post/speedup-sass-build/</guid><description>&lt;h2 id="tldr"&gt;tl;dr&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;sass で書いたものを css で変換するのに Ruby製の &lt;a href="https://github.com/Compass/compass"&gt;Compass&lt;/a&gt; を使っていたが遅くて困っていた&lt;/li&gt;
+&lt;li&gt;Ruby 製の Compass をやめて LibSass の変更&lt;/li&gt;
+&lt;li&gt;結果、&lt;strong&gt;160秒&lt;/strong&gt; かかっていたのが &lt;strong&gt;10秒&lt;/strong&gt; になった&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
