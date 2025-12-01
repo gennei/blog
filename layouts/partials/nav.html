@@ -1,0 +1,13 @@
+<!-- Sidebar navigation override to keep theme submodule clean -->
+<nav>
+  {{ partial "header.html" . }}
+  <div class="nav-menu">
+  {{ range .Site.Menus.main }}
+    <a class="color-link nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+  {{ end }}
+  {{ with .Site.Home.OutputFormats.Get "RSS" }}
+    <a class="color-link nav-link" href="{{ .RelPermalink }}" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}
+</nav>
